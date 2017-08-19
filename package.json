@@ -1,0 +1,22 @@
+{
+  "name": "sunway",
+  "version": "1.0.0",
+  "description": "onepage website",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"error: no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twopix/sunway.git"
+  },
+  "keywords": [
+    "onepage"
+  ],
+  "author": "George Melidis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twopix/sunway/issues"
+  },
+  "homepage": "https://github.com/twopix/sunway#readme"
+}

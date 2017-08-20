@@ -1,35 +1,92 @@
-var gulp = require('gulp');
-// Requires the gulp-sass plugin
-var sass = require('gulp-sass');
-// Browser live sync
-var browserSync = require('browser-sync').create();
+var gulp = require('gulp'),
+    watch = require('gulp-watch'),
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
+    cssBase64 = require('gulp-css-base64'),
+    path = require('path'),
+    notify = require('gulp-notify'),
+    inlinesource = require('gulp-inline-source'),
+    browserSync = require('browser-sync'),
+    imagemin = require('gulp-imagemin'),
+    del = require('del'),
+    cache = require('gulp-cache'),
+    uglify = require('gulp-uglify'),
+    autoprefixer = require('gulp-autoprefixer'),
+    runSequence = require('run-sequence');
 
-// Gulp watch syntax
-
-gulp.task('browserSync', function() {
-    browserSync.init({
-        server: {
-            baseDir: 'app'
-        },
-    })
-})
-
-gulp.task('watch', ['browserSync', 'sass'], function() {
-    gulp.watch('app/scss/**/*.scss', ['sass']);
-    // Reloads the browser whenever HTML or JS files change
-    gulp.watch('app/*.html', browserSync.reload);
-    gulp.watch('app/js/**/*.js', browserSync.reload);
-
-})
-
+// Task to compile SCSS
 gulp.task('sass', function() {
-    return gulp.src('app/scss/**/*.scss') // Gets all files ending with .scss in app/scss
-        .pipe(sass())
-        .pipe(gulp.dest('app/css'))
+    return gulp.src('./app/sass/**/*.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass({
+                errLogToConsole: false,
+                paths: [path.join(__dirname, 'scss', 'includes')]
+            })
+            .on("error", notify.onError(function(error) {
+                return "Failed to Compile SCSS: " + error.message;
+            })))
+        .pipe(cssBase64())
+        .pipe(autoprefixer())
+        .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest('./app/sass/'))
+        .pipe(gulp.dest('./dist/css/'))
         .pipe(browserSync.reload({
             stream: true
         }))
+        .pipe(notify("SCSS Compiled Successfully :)"));
 });
 
+// Task to Minify JS
+gulp.task('jsmin', function() {
+    return gulp.src('./app/js/**/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('./dist/js/'));
+});
 
-gulp.watch('app/sass/**/*.scss', ['sass']);
+// Minify Images
+gulp.task('imagemin', function() {
+    return gulp.src('./app/img/**/*.+(png|jpg|jpeg|gif|svg)')
+        // Caching images that ran through imagemin
+        .pipe(cache(imagemin({
+            interlaced: true
+        })))
+        .pipe(gulp.dest('./dist/img'));
+});
+
+// BrowserSync Task (Live reload)
+gulp.task('browserSync', function() {
+    browserSync({
+        server: {
+            baseDir: './app/'
+        }
+    })
+});
+
+// Gulp Inline Source Task
+// Embed scripts, CSS or images inline (make sure to add an inline attribute to the linked files)
+// Eg: <script src="default.js" inline></script>
+// Will compile all inline within the html file (less http requests - woot!)
+gulp.task('inlinesource', function() {
+    return gulp.src('./app/**/*.html')
+        .pipe(inlinesource())
+        .pipe(gulp.dest('./dist/'));
+});
+
+// Gulp Watch Task
+gulp.task('watch', ['browserSync'], function() {
+    gulp.watch('./app/sass/**/*', ['sass']);
+    gulp.watch('./app/**/*.html').on('change', browserSync.reload);
+});
+
+// Gulp Clean Up Task
+gulp.task('clean', function() {
+    del('dist');
+});
+
+// Gulp Default Task
+gulp.task('default', ['watch']);
+
+// Gulp Build Task
+gulp.task('build', function() {
+    runSequence('clean', 'sass', 'imagemin', 'jsmin', 'inlinesource');
+});

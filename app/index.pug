@@ -1,0 +1,905 @@
+doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8
+//if IE 8
+  html.no-js.lt-ie9
+// [if gt IE 8] <!
+|
+html.no-js
+    // <![endif]
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        title Sun Way &mdash; 100% Free Fully Responsive HTML5 Template by Sun Way
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        meta(name='description', content='Free HTML5 Template by Sun Way')
+        meta(name='keywords', content='free html5, free template, free bootstrap, html5, css3, mobile first, responsive')
+        meta(name='author', content='Sun Way')
+        // Facebook and Twitter integration
+        meta(property='og:title', content='')
+        meta(property='og:image', content='')
+        meta(property='og:url', content='')
+        meta(property='og:site_name', content='')
+        meta(property='og:description', content='')
+        meta(name='twitter:title', content='')
+        meta(name='twitter:image', content='')
+        meta(name='twitter:url', content='')
+        meta(name='twitter:card', content='')
+        // Place favicon.ico and apple-touch-icon.png in the root directory
+        link(rel='shortcut icon', href='favicon.ico')
+        link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700', rel='stylesheet', type='text/css')
+        // Animate.css
+        link(rel='stylesheet', href='css/animate.css')
+        // Icomoon Icon Fonts
+        link(rel='stylesheet', href='css/icomoon.css')
+        // Simple Line Icons
+        link(rel='stylesheet', href='css/simple-line-icons.css')
+        // Owl Carousel
+        link(rel='stylesheet', href='css/owl.carousel.min.css')
+        | &#x9;
+        link(rel='stylesheet', href='css/owl.theme.default.min.css')
+        // Bootstrap
+        link(rel='stylesheet', href='css/bootstrap.css')
+        //
+          Default Theme Style
+          You can change the style.css (default color purple) to one of these styles
+          1. pink.css
+          2. blue.css
+          3. turquoise.css
+          4. orange.css
+          5. lightblue.css
+          6. brown.css
+          7. green.css
+        link(rel='stylesheet', href='css/style.css')
+        // Styleswitcher ( This style is for demo purposes only, you may delete this anytime. )
+        link#theme-switch(rel='stylesheet', href='css/style.css')
+        // End demo purposes only
+        style.
+            /* For demo purpose only */
+            /* For Demo Purposes Only ( You can delete this anytime :-) */
+            #colour-variations {
+                padding: 10px;
+                -webkit-transition: 0.5s;
+                -o-transition: 0.5s;
+                transition: 0.5s;
+                width: 140px;
+                position: fixed;
+                left: 0;
+                top: 100px;
+                z-index: 999999;
+                background: #fff;
+                /*border-radius: 4px;*/
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                -webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+                -moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+                -ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+                box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+            }
+            #colour-variations.sleep {
+                margin-left: -140px;
+            }
+            #colour-variations h3 {
+                text-align: center;;
+                font-size: 11px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #777;
+                margin: 0 0 10px 0;
+                padding: 0;;
+            }
+            #colour-variations ul,
+            #colour-variations ul li {
+                padding: 0;
+                margin: 0;
+            }
+            #colour-variations li {
+                list-style: none;
+                display: inline;
+            }
+            #colour-variations li a {
+                width: 20px;
+                height: 20px;
+                position: relative;
+                float: left;
+                margin: 5px;
+            }
+            #colour-variations li a[data-theme="style"] {
+                background: #6173f4;
+            }
+            #colour-variations li a[data-theme="pink"] {
+                background: #f64662;
+            }
+            #colour-variations li a[data-theme="blue"] {
+                background: #2185d5;
+            }
+            #colour-variations li a[data-theme="turquoise"] {
+                background: #00b8a9;
+            }
+            #colour-variations li a[data-theme="orange"] {
+                background: #ff6600;
+            }
+            #colour-variations li a[data-theme="lightblue"] {
+                background: #5585b5;
+            }
+            #colour-variations li a[data-theme="brown"] {
+                background: #a03232;
+            }
+            #colour-variations li a[data-theme="green"] {
+                background: #65d269;
+            }
+            .option-toggle {
+                position: absolute;
+                right: 0;
+                top: 0;
+                margin-top: 5px;
+                margin-right: -30px;
+                width: 30px;
+                height: 30px;
+                background: #f64662;
+                text-align: center;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                color: #fff;
+                cursor: pointer;
+                -webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+                -moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+                -ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+                box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+            }
+            .option-toggle i {
+                top: 2px;
+                position: relative;
+            }
+            .option-toggle:hover, .option-toggle:focus, .option-toggle:active {
+                color:  #fff;
+                text-decoration: none;
+                outline: none;
+            }
+        // End demo purposes only
+        // Modernizr JS
+        script(src='js/modernizr-2.6.2.min.js')
+        // FOR IE9 below
+        //if lt IE 9
+          script(src='js/respond.min.js')
+    | &#x9;
+    body
+        header#fh5co-header(role='banner')
+            .container
+                // <div class="row">
+                nav.navbar.navbar-default
+                    .navbar-header
+                        // Mobile Toggle Menu Button
+                        a.js-fh5co-nav-toggle.fh5co-nav-toggle(href='#', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+                            i
+                        | &#x9;&#x9;          &#x9;
+                        a.navbar-brand(href='index.html') Crew
+                    | &#x9;&#x9;
+                    #navbar.navbar-collapse.collapse
+                        ul.nav.navbar-nav.navbar-right
+                            li.active
+                                a(href='#', data-nav-section='home')
+                                    span Home
+                            | &#x9;&#x9;
+                            li
+                                a(href='#', data-nav-section='about')
+                                    span About
+                            | &#x9;&#x9;
+                            li
+                                a(href='#', data-nav-section='services')
+                                    span Services
+                            | &#x9;&#x9;
+                            li
+                                a(href='#', data-nav-section='features')
+                                    span Features
+                            | &#x9;&#x9;
+                            li
+                                a(href='#', data-nav-section='testimonials')
+                                    span Testimonials
+                            | &#x9;&#x9;
+                            li
+                                a(href='#', data-nav-section='pricing')
+                                    span Pricing
+                            | &#x9;&#x9;
+                            li
+                                a(href='#', data-nav-section='press')
+                                    span Press
+                // </div>
+        | &#x9;
+        #slider(data-section='home')
+            .owl-carousel.owl-carousel-fullwidth
+                // You may change the background color here.
+                .item(style='background: #352f44;')
+                    .container(style='position: relative;')
+                        .row
+                            .col-md-7.col-sm-7
+                                .fh5co-owl-text-wrap
+                                    .fh5co-owl-text
+                                        h1.fh5co-lead.to-animate Case Study Title
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        h2.fh5co-sub-lead.to-animate
+                                            | 100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at
+                                            a(href='http://Sun Way/', target='_blank') Sun Way
+                                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                            p.to-animate-2
+                                                a.btn.btn-primary.btn-lg(href='#') View Case Study
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;
+                            .col-md-4.col-md-push-1.col-sm-4.col-sm-push-1.iphone-image
+                                .iphone.to-animate-2
+                                    img(src='images/iphone-2.png', alt='Free HTML5 Template by Sun Way')
+                // You may change the background color here.
+                .item(style='background: #38569f;')
+                    .container(style='position: relative;')
+                        .row
+                            .col-md-7.col-md-push-1.col-md-push-5.col-sm-7.col-sm-push-1.col-sm-push-5
+                                .fh5co-owl-text-wrap
+                                    .fh5co-owl-text
+                                        h1.fh5co-lead.to-animate Case Study Title
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        h2.fh5co-sub-lead.to-animate
+                                            | 100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at
+                                            a(href='http://Sun Way/', target='_blank') Sun Way
+                                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                            p.to-animate-2
+                                                a.btn.btn-primary.btn-lg(href='#') View Case Study
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;
+                            .col-md-4.col-md-pull-7.col-sm-4.col-sm-pull-7.iphone-image
+                                .iphone.to-animate-2
+                                    img(src='images/iphone-1.png', alt='Free HTML5 Template by Sun Way')
+                | &#x9;&#x9;
+                .item(style='background-image:url(images/slide_5.jpg)')
+                    .overlay
+                    | &#x9;&#x9;    &#x9;
+                    .container(style='position: relative;')
+                        .row
+                            .col-md-8.col-md-offset-2.text-center
+                                .fh5co-owl-text-wrap
+                                    .fh5co-owl-text
+                                        h1.fh5co-lead.to-animate Grab it now for free!
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        h2.fh5co-sub-lead.to-animate
+                                            | 100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at
+                                            a(href='http://Sun Way/', target='_blank') Sun Way
+                                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                            p.to-animate-2
+                                                a.btn.btn-primary.btn-lg(href='http://Sun Way/', target='_blank') Download This Template
+        | &#x9;
+        | &#x9;
+        #fh5co-about-us(data-section='about')
+            .container
+                #about-us.row.row-bottom-padded-lg
+                    .col-md-12.section-heading.text-center
+                        h2.to-animate About Us
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .row
+                            .col-md-8.col-md-offset-2.to-animate
+                                h3
+                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-8.to-animate
+                        img.img-responsive.img-rounded(src='images/img_1.jpg', alt='Free HTML5 Template')
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4.to-animate
+                        h2 How we got started
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                            | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                            | It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        p
+                            a.btn.btn-primary(href='#') Meet the team
+                | &#x9;&#x9;&#x9;
+                #team.row
+                    .col-md-12.section-heading.text-center.to-animate
+                        h2 Team
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-12
+                        .row.row-bottom-padded-lg
+                            .col-md-4.text-center.to-animate
+                                .person
+                                    img.img-responsive.img-rounded(src='images/person2.jpg', alt='Person')
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    h3.name John Doe
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    .position Web Developer
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    p
+                                        | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    ul.social.social-circle
+                                        li
+                                            a(href='#')
+                                                i.icon-twitter
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-linkedin
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-instagram
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-github
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .col-md-4.text-center.to-animate
+                                .person
+                                    img.img-responsive.img-rounded(src='images/person3.jpg', alt='Person')
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    h3.name Rob Smith
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    .position Web Designer
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    p
+                                        | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    ul.social.social-circle
+                                        li
+                                            a(href='#')
+                                                i.icon-twitter
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-linkedin
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-instagram
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-dribbble
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .col-md-4.text-center.to-animate
+                                .person
+                                    img.img-responsive.img-rounded(src='images/person4.jpg', alt='Person')
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    h3.name John Doe
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    .position Photographer
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    p
+                                        | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.
+                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    ul.social.social-circle
+                                        li
+                                            a(href='#')
+                                                i.icon-twitter
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-linkedin
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-instagram
+                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        li
+                                            a(href='#')
+                                                i.icon-github
+        | &#x9;
+        #fh5co-our-services(data-section='services')
+            .container
+                .row.row-bottom-padded-sm
+                    .col-md-12.section-heading.text-center
+                        h2.to-animate Our Services
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .row
+                            .col-md-8.col-md-offset-2.to-animate
+                                h3
+                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                | &#x9;&#x9;&#x9;
+                .row
+                    .col-md-4
+                        .box.to-animate
+                            .icon.colored-1
+                                span
+                                    i.icon-mustache
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3 100% free
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .box.to-animate
+                            .icon.colored-4
+                                span
+                                    i.icon-heart
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3 Made with love
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4
+                        .box.to-animate
+                            .icon.colored-2
+                                span
+                                    i.icon-screen-desktop
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3 Fully responsive
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .box.to-animate
+                            .icon.colored-5
+                                span
+                                    i.icon-rocket
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3 Fast &amp; light
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4
+                        .box.to-animate
+                            .icon.colored-3
+                                span
+                                    i.icon-eye
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3 Retina-ready
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .box.to-animate
+                            .icon.colored-6
+                                span
+                                    i.icon-user
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3 For creative like you!
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        | &#x9;
+        | &#x9;
+        #fh5co-features(data-section='features')
+            .container
+                .row
+                    .col-md-12.section-heading.text-center
+                        h2.single-animate.animate-features-1 Features
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .row
+                            .col-md-8.col-md-offset-2.single-animate.animate-features-2
+                                h3
+                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                | &#x9;&#x9;&#x9;
+                .row.row-bottom-padded-sm
+                    .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
+                        .fh5co-icon
+                            i.icon-present
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .fh5co-desc
+                            h3 100% Free
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
+                        .fh5co-icon
+                            i.icon-eye
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .fh5co-desc
+                            h3 Retina Ready
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .clearfix.visible-sm-block.visible-xs-block
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
+                        .fh5co-icon
+                            i.icon-crop
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .fh5co-desc
+                            h3 Fully Responsive
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
+                        .fh5co-icon
+                            i.icon-speedometer
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .fh5co-desc
+                            h3 Lightweight
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .clearfix.visible-sm-block.visible-xs-block
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
+                        .fh5co-icon
+                            i.icon-heart
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .fh5co-desc
+                            h3 Made with Love
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
+                        .fh5co-icon
+                            i.icon-umbrella
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .fh5co-desc
+                            h3 Eco Friendly
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p
+                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .clearfix.visible-sm-block.visible-xs-block
+                | &#x9;&#x9;&#x9;
+                .row
+                    .col-md-4.col-md-offset-4.single-animate.animate-features-3
+                        a.btn.btn-primary.btn-block(href='#') Learn More
+        | &#x9;
+        #fh5co-testimonials(data-section='testimonials')
+            .container
+                .row
+                    .col-md-12.section-heading.text-center
+                        h2.to-animate Happy Clients Says...
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .row
+                            .col-md-8.col-md-offset-2.subtext.to-animate
+                                h3
+                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                | &#x9;&#x9;&#x9;
+                .row
+                    .col-md-4
+                        .box-testimony.to-animate
+                            blockquote
+                                span.quote
+                                    span
+                                        i.icon-quote-left
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    | &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p.author
+                                | John Doe, CEO
+                                a(href='http://Sun Way/', target='_blank') Sun Way
+                                |
+                                span.subtext Creative Director
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4
+                        .box-testimony.to-animate
+                            blockquote
+                                span.quote
+                                    span
+                                        i.icon-quote-left
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    | &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p.author
+                                | John Doe, CEO
+                                a(href='http://Sun Way/', target='_blank') Sun Way
+                                |
+                                span.subtext Creative Director
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-4
+                        .box-testimony.to-animate
+                            blockquote
+                                span.quote
+                                    span
+                                        i.icon-quote-left
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    | &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p.author
+                                | John Doe, Founder
+                                a(href='#') Sun Way
+                                |
+                                span.subtext Creative Director
+        | &#x9;
+        #fh5co-pricing(data-section='pricing')
+            .container
+                .row
+                    .col-md-12.section-heading.text-center
+                        h2.single-animate.animate-pricing-1 Pricing
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .row
+                            .col-md-8.col-md-offset-2.subtext.single-animate.animate-pricing-2
+                                h3
+                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                | &#x9;&#x9;&#x9;
+                .row
+                    .col-md-3.col-sm-6
+                        .price-box.to-animate
+                            h2.pricing-plan Starter
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .price
+                                sup.currency $
+                                | 7
+                                small /mo
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p Basic customer support for small business
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            hr
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            ul.pricing-info
+                                li 10 projects
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 20 Pages
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 20 Emails
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 100 Images
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            a.btn.btn-default.btn-sm(href='#') Get started
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-3.col-sm-6
+                        .price-box.to-animate
+                            h2.pricing-plan Regular
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .price
+                                sup.currency $
+                                | 19
+                                small /mo
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p Basic customer support for small business
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            hr
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            ul.pricing-info
+                                li 15 projects
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 40 Pages
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 40 Emails
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 200 Images
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            a.btn.btn-default.btn-sm(href='#') Get started
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .clearfix.visible-sm-block
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-3.col-sm-6.to-animate
+                        .price-box.popular
+                            .popular-text Best value
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h2.pricing-plan Plus
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .price
+                                sup.currency $
+                                | 79
+                                small /mo
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p Basic customer support for small business
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            hr
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            ul.pricing-info
+                                li Unlimitted projects
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 100 Pages
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 100 Emails
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li 700 Images
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            a.btn.btn-primary.btn-sm(href='#') Get started
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-3.col-sm-6
+                        .price-box.to-animate
+                            h2.pricing-plan Enterprise
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .price
+                                sup.currency $
+                                | 125
+                                small /mo
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            p Basic customer support for small business
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            hr
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            ul.pricing-info
+                                li Unlimitted projects
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li Unlimitted Pages
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li Unlimitted Emails
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                li Unlimitted Images
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            a.btn.btn-default.btn-sm(href='#') Get started
+        | &#x9;
+        #fh5co-press(data-section='press')
+            .container
+                .row
+                    .col-md-12.section-heading.text-center
+                        h2.single-animate.animate-press-1 Press Releases
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        .row
+                            .col-md-8.col-md-offset-2.subtext.single-animate.animate-press-2
+                                h3
+                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                | &#x9;&#x9;&#x9;
+                .row
+                    .col-md-6
+                        // Press Item
+                        .fh5co-press-item.to-animate
+                            .fh5co-press-img(style='background-image: url(images/img_7.jpg)')
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .fh5co-press-text
+                                h3.h2.fh5co-press-title
+                                    | Simplicity
+                                    span.fh5co-border
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    a.btn.btn-primary.btn-sm(href='#') Learn more
+                        // Press Item
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-6
+                        // Press Item
+                        .fh5co-press-item.to-animate
+                            .fh5co-press-img(style='background-image: url(images/img_8.jpg)')
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .fh5co-press-text
+                                h3.h2.fh5co-press-title
+                                    | Versatile
+                                    span.fh5co-border
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    a.btn.btn-primary.btn-sm(href='#') Learn more
+                        // Press Item
+                    | &#x9;&#x9;&#x9;&#x9;
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-6
+                        // Press Item
+                        .fh5co-press-item.to-animate
+                            .fh5co-press-img(style='background-image: url(images/img_9.jpg);')
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .fh5co-press-text
+                                h3.h2.fh5co-press-title
+                                    | Aesthetic
+                                    span.fh5co-border
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    a.btn.btn-primary.btn-sm(href='#') Learn more
+                        // Press Item
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .col-md-6
+                        // Press Item
+                        .fh5co-press-item.to-animate
+                            .fh5co-press-img(style='background-image: url(images/img_10.jpg);')
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            .fh5co-press-text
+                                h3.h2.fh5co-press-title
+                                    | Creative
+                                    span.fh5co-border
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
+                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                p
+                                    a.btn.btn-primary.btn-sm(href='#') Learn more
+                        // Press Item
+        | &#x9;
+        | &#x9;
+        footer#footer(role='contentinfo')
+            .container
+                .row.row-bottom-padded-sm
+                    .col-md-12
+                        p.copyright.text-center
+                            | &copy; 2015 Free
+                            a(href='index.html') Crew
+                            | . All Rights Reserved.
+                            br
+                            |  Free HTML5 Template by
+                            a(href='http://Sun Way/', target='_blank') Sun Way
+                            |  | Images by
+                            a(href='http://pexels.com/', target='_blank') Pexels
+                            |  &amp;
+                            a(href='http://unsplash.com/', target='_blank') Unsplash
+                | &#x9;&#x9;&#x9;
+                .row
+                    .col-md-12.text-center
+                        ul.social.social-circle
+                            li
+                                a(href='#')
+                                    i.icon-twitter
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a(href='#')
+                                    i.icon-facebook
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a(href='#')
+                                    i.icon-youtube
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a(href='#')
+                                    i.icon-pinterest
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a(href='#')
+                                    i.icon-linkedin
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a(href='#')
+                                    i.icon-instagram
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            li
+                                a(href='#')
+                                    i.icon-dribbble
+        // For demo purposes Only ( You may delete this anytime :-)
+        #colour-variations
+            a.option-toggle
+                i.icon-gear
+            | &#x9;&#x9;
+            h3 Preset Colors
+            | &#x9;&#x9;
+            ul
+                li
+                    a(href='javascript: void(0);', data-theme='style')
+                | &#x9;&#x9;&#x9;
+                li
+                    a(href='javascript: void(0);', data-theme='pink')
+                | &#x9;&#x9;&#x9;
+                li
+                    a(href='javascript: void(0);', data-theme='blue')
+                | &#x9;&#x9;&#x9;
+                li
+                    a(href='javascript: void(0);', data-theme='turquoise')
+                | &#x9;&#x9;&#x9;
+                li
+                    a(href='javascript: void(0);', data-theme='orange')
+                | &#x9;&#x9;&#x9;
+                li
+                    a(href='javascript: void(0);', data-theme='lightblue')
+                | &#x9;&#x9;&#x9;
+                li
+                    a(href='javascript: void(0);', data-theme='brown')
+                | &#x9;&#x9;&#x9;
+                li
+                    a(href='javascript: void(0);', data-theme='green')
+        // End demo purposes only
+        // jQuery
+        script(src='js/jquery.min.js')
+        // jQuery Easing
+        script(src='js/jquery.easing.1.3.js')
+        // Bootstrap
+        script(src='js/bootstrap.min.js')
+        // Waypoints
+        script(src='js/jquery.waypoints.min.js')
+        // Owl Carousel
+        script(src='js/owl.carousel.min.js')
+        // For demo purposes only styleswitcher ( You may delete this anytime )
+        script(src='js/jquery.style.switcher.js')
+        | &#x9;
+        script.
+          $(function(){
+            $('#colour-variations ul').styleSwitcher({
+              defaultThemeId: 'theme-switch',
+              hasPreview: false,
+              cookie: {
+                expires: 30,
+                isManagingLoad: true
+              }
+            });
+            $('.option-toggle').click(function() {
+              $('#colour-variations').toggleClass('sleep');
+            });
+          });
+        // End demo purposes only
+        // Main JS (Do not remove)
+        script(src='js/main.js')

@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     watch = require('gulp-watch'),
     sass = require('gulp-sass'),
+    pug = require('gulp-pug'),
     sourcemaps = require('gulp-sourcemaps'),
     cssBase64 = require('gulp-css-base64'),
     path = require('path'),
@@ -36,6 +37,32 @@ gulp.task('sass', function() {
         .pipe(notify("SCSS Compiled Successfully :)"));
 });
 
+// run this task by typing in gulp pug in CLI
+gulp.task('pug', function() {
+    return gulp.src('app/*.pug')
+        .pipe(pug({
+                errLogToConsole: false,
+                paths: [path.join(__dirname, 'pug', 'includes')]
+            })
+            .on("error", notify.onError(function(error) {
+                return "Failed to Compile pug: " + error.message;
+            })))
+        .pipe(gulp.dest('./dist'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+        .pipe(notify("pug Compiled Successfully)"));
+});
+
+// copy vendor files
+gulp.task('copy-files', function() {
+  gulp.src(['./node_modules/animate.css/animate.css','./app/css/*.css', './node_modules/owl.carousel/dist/assets/*.*'])
+    .pipe(gulp.dest('./dist/css'));
+  gulp.src(['./app/js/*.js'])
+    .pipe(gulp.dest('./dist/js'));
+});
+
+
 // Task to Minify JS
 gulp.task('jsmin', function() {
     return gulp.src('./app/js/**/*.js')
@@ -53,11 +80,12 @@ gulp.task('imagemin', function() {
         .pipe(gulp.dest('./dist/img'));
 });
 
+
 // BrowserSync Task (Live reload)
 gulp.task('browserSync', function() {
     browserSync({
         server: {
-            baseDir: './app/'
+            baseDir: './dist/'
         }
     })
 });
@@ -73,9 +101,9 @@ gulp.task('inlinesource', function() {
 });
 
 // Gulp Watch Task
-gulp.task('watch', ['browserSync'], function() {
-    gulp.watch('./app/sass/**/*', ['sass']);
-    gulp.watch('./app/**/*.html').on('change', browserSync.reload);
+gulp.task('watch', ['browserSync', 'pug'], function() {
+    gulp.watch('./app/**/*', ['sass', 'pug']);
+    gulp.watch('./app/**/*.pug').on('change', browserSync.reload);
 });
 
 // Gulp Clean Up Task
@@ -88,5 +116,5 @@ gulp.task('default', ['watch']);
 
 // Gulp Build Task
 gulp.task('build', function() {
-    runSequence('clean', 'sass', 'imagemin', 'jsmin', 'inlinesource');
+    runSequence('clean', 'sass', 'pug', 'imagemin', 'copy-files', 'jsmin', 'inlinesource');
 });

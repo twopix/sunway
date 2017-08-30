@@ -60,6 +60,8 @@ gulp.task('copy-files', function() {
     .pipe(gulp.dest('./dist/css'));
   gulp.src(['./app/js/*.js'])
     .pipe(gulp.dest('./dist/js'));
+  gulp.src(['./app/fonts/*.*'])
+    .pipe(gulp.dest('./dist/fonts'));
 });
 
 

@@ -14,7 +14,7 @@ html.no-js
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
         title Sun Way &mdash; 100% Free Fully Responsive HTML5 Template by Sun Way
         meta(name='viewport', content='width=device-width, initial-scale=1')
-        meta(name='description', content='Free HTML5 Template by Sun Way')
+        meta(name='description', content='Sun Way Terminal')
         meta(name='keywords', content='free html5, free template, free bootstrap, html5, css3, mobile first, responsive')
         meta(name='author', content='Sun Way')
         // Facebook and Twitter integration
@@ -29,7 +29,8 @@ html.no-js
         meta(name='twitter:card', content='')
         // Place favicon.ico and apple-touch-icon.png in the root directory
         link(rel='shortcut icon', href='favicon.ico')
-        link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700', rel='stylesheet', type='text/css')
+        //- link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=greek', rel='stylesheet', type='text/css')
         // Animate.css
         link(rel='stylesheet', href='css/animate.css')
         // Icomoon Icon Fonts
@@ -38,30 +39,19 @@ html.no-js
         link(rel='stylesheet', href='css/simple-line-icons.css')
         // Owl Carousel
         link(rel='stylesheet', href='css/owl.carousel.min.css')
-        | &#x9;
+        |
         link(rel='stylesheet', href='css/owl.theme.default.min.css')
         // Bootstrap
         link(rel='stylesheet', href='css/bootstrap.css')
-        //
-          Default Theme Style
-          You can change the style.css (default color purple) to one of these styles
-          1. pink.css
-          2. blue.css
-          3. turquoise.css
-          4. orange.css
-          5. lightblue.css
-          6. brown.css
-          7. green.css
-        link(rel='stylesheet', href='css/blue.css')
-        // Styleswitcher ( This style is for demo purposes only, you may delete this anytime. )
-        link#theme-switch(rel='stylesheet', href='css/style.css')
+  
+        link(rel='stylesheet', href='css/style.css')
 
         // Modernizr JS
         script(src='js/modernizr-2.6.2.min.js')
         // FOR IE9 below
         //if lt IE 9
           script(src='js/respond.min.js')
-    | &#x9;
+    |
     body
         header#fh5co-header(role='banner')
             .container
@@ -71,384 +61,446 @@ html.no-js
                         // Mobile Toggle Menu Button
                         a.js-fh5co-nav-toggle.fh5co-nav-toggle(href='#', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
                             i
-                        | &#x9;&#x9;          &#x9;
-                        a.navbar-brand(href='index.html') Crew
-                    | &#x9;&#x9;
+                        |
+                        a.navbar-brand(href='index.html') 
+                            img(src="images/logo.png", alt="Sun Way")
+                    |
                     #navbar.navbar-collapse.collapse
                         ul.nav.navbar-nav.navbar-right
                             li.active
                                 a(href='#', data-nav-section='home')
-                                    span Home
-                            | &#x9;&#x9;
+                                    span Αρχική
                             li
                                 a(href='#', data-nav-section='about')
-                                    span About
-                            | &#x9;&#x9;
+                                    span Τεχνολογία
                             li
                                 a(href='#', data-nav-section='services')
-                                    span Services
-                            | &#x9;&#x9;
+                                    span Κατάλογος
                             li
                                 a(href='#', data-nav-section='features')
                                     span Features
-                            | &#x9;&#x9;
                             li
                                 a(href='#', data-nav-section='testimonials')
                                     span Testimonials
-                            | &#x9;&#x9;
                             li
                                 a(href='#', data-nav-section='pricing')
                                     span Pricing
-                            | &#x9;&#x9;
                             li
                                 a(href='#', data-nav-section='press')
                                     span Press
                 // </div>
-        | &#x9;
+        |
         #slider(data-section='home')
             .owl-carousel.owl-carousel-fullwidth
                 // You may change the background color here.
-                .item(style='background: #352f44;')
+                .item(style='background-image:url(images/1.jpg)')
                     .container(style='position: relative;')
                         .row
                             .col-md-7.col-sm-7
                                 .fh5co-owl-text-wrap
                                     .fh5co-owl-text
-                                        h1.fh5co-lead.to-animate Case Study Title
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        h1.fh5co-lead.to-animate Οικονομια
+                                        |
                                         h2.fh5co-sub-lead.to-animate
-                                            | 100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at
-                                            a(href='http://Sun Way/', target='_blank') Sun Way
-                                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                            | μηνιαία εξοικονόμηση θέρμανσης
+                                            |
                                             p.to-animate-2
                                                 a.btn.btn-primary.btn-lg(href='#') View Case Study
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .col-md-4.col-md-push-1.col-sm-4.col-sm-push-1.iphone-image
                                 .iphone.to-animate-2
-                                    img(src='images/iphone-2.png', alt='Free HTML5 Template by Sun Way')
+                                    img(src='images/bestPannel.png', alt='Sun Way Terminal')
                 // You may change the background color here.
-                .item(style='background: #38569f;')
+                .item(style='background-image:url(images/2.jpg)')
                     .container(style='position: relative;')
                         .row
                             .col-md-7.col-md-push-1.col-md-push-5.col-sm-7.col-sm-push-1.col-sm-push-5
                                 .fh5co-owl-text-wrap
                                     .fh5co-owl-text
                                         h1.fh5co-lead.to-animate Case Study Title
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         h2.fh5co-sub-lead.to-animate
                                             | 100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at
                                             a(href='http://Sun Way/', target='_blank') Sun Way
-                                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                            |
                                             p.to-animate-2
                                                 a.btn.btn-primary.btn-lg(href='#') View Case Study
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .col-md-4.col-md-pull-7.col-sm-4.col-sm-pull-7.iphone-image
                                 .iphone.to-animate-2
-                                    img(src='images/iphone-1.png', alt='Free HTML5 Template by Sun Way')
-                | &#x9;&#x9;
-                .item(style='background-image:url(images/slide_5.jpg)')
+                                    img(src='images/bestPannel2.png', alt='Sun Way Terminal')
+                |
+                .item(style='background-image:url(images/3.jpg)')
                     .overlay
-                    | &#x9;&#x9;    &#x9;
+                    |
                     .container(style='position: relative;')
                         .row
                             .col-md-8.col-md-offset-2.text-center
                                 .fh5co-owl-text-wrap
                                     .fh5co-owl-text
-                                        h1.fh5co-lead.to-animate Grab it now for free!
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        h1.fh5co-lead.to-animate Οικολογια
                                         h2.fh5co-sub-lead.to-animate
-                                            | 100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at
+                                            | Ομοιόμορφη κατανομή θερμότητας
                                             a(href='http://Sun Way/', target='_blank') Sun Way
-                                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                            |
                                             p.to-animate-2
                                                 a.btn.btn-primary.btn-lg(href='http://Sun Way/', target='_blank') Download This Template
-        | &#x9;
-        | &#x9;
+
+                .item(style='background-image:url(images/4.jpg)')
+                    .overlay
+                    |
+                    .container(style='position: relative;')
+                        .row
+                            .col-md-8.col-md-offset-2.text-center
+                                .fh5co-owl-text-wrap
+                                    .fh5co-owl-text
+                                        h1.fh5co-lead.to-animate Οικονομία
+                                        h2.fh5co-sub-lead.to-animate
+                                            | Ομοιόμορφη κατανομή θερμότητας
+                                            a(href='http://Sun Way/', target='_blank') Sun Way
+                                            |
+                                            p.to-animate-2
+                                                a.btn.btn-primary.btn-lg(href='http://Sun Way/', target='_blank') Download This Template
+        |
+        |
         #fh5co-about-us(data-section='about')
             .container
                 #about-us.row.row-bottom-padded-lg
                     .col-md-12.section-heading.text-center
-                        h2.to-animate About Us
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        h2.to-animate Πως λειτουργεί
+                        |
                         .row
                             .col-md-8.col-md-offset-2.to-animate
-                                h3
-                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
-                    .col-md-8.to-animate
-                        img.img-responsive.img-rounded(src='images/img_1.jpg', alt='Free HTML5 Template')
-                    | &#x9;&#x9;&#x9;&#x9;
-                    .col-md-4.to-animate
-                        h2 How we got started
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
-                        p
-                            | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
-                        p
-                            | It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day.
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
-                        p
-                            a.btn.btn-primary(href='#') Meet the team
-                | &#x9;&#x9;&#x9;
+                                p
+                                    | Thermopanel συνδυάζει δύο τύπους θέρμανσης: υπέρυθρες ακτίνες μακρών κυμάτων και θερμική μεταφορά. 
+                                    | Επιτρέποντας ομοιόμορφη θέρμανση του δωματίου και τη διατήρηση του άνετου μικροκλίματος.
+                                    br
+                                    | Η χρήση αντανακλαστικού φύλλου μαγνησίτη στα επαγγελματικά μας μοντέλα επέτρεψε την επίτευξη της μέγιστης μεταφοράς θερμικών κυμάτων μέσω της  κεραμικής επιφάνειας, βελτιώνοντας την ποιότητα και το περιβάλλον του θερμαντήρα μας
+                    |
+                    .col-md-12.to-animate
+                        img.img-responsive.img-rounded.img-center(src='images/how-it-works.png', alt='Sun Way')
+                        
+                |
                 #team.row
                     .col-md-12.section-heading.text-center.to-animate
                         h2 Team
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-12
                         .row.row-bottom-padded-lg
                             .col-md-4.text-center.to-animate
                                 .person
                                     img.img-responsive.img-rounded(src='images/person2.jpg', alt='Person')
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     h3.name John Doe
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     .position Web Developer
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     p
                                         | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     ul.social.social-circle
                                         li
                                             a(href='#')
                                                 i.icon-twitter
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-linkedin
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-instagram
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-github
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .col-md-4.text-center.to-animate
                                 .person
                                     img.img-responsive.img-rounded(src='images/person3.jpg', alt='Person')
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     h3.name Rob Smith
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     .position Web Designer
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     p
                                         | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     ul.social.social-circle
                                         li
                                             a(href='#')
                                                 i.icon-twitter
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-linkedin
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-instagram
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-dribbble
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .col-md-4.text-center.to-animate
                                 .person
                                     img.img-responsive.img-rounded(src='images/person4.jpg', alt='Person')
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     h3.name John Doe
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     .position Photographer
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     p
                                         | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.
-                                    | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                    |
                                     ul.social.social-circle
                                         li
                                             a(href='#')
                                                 i.icon-twitter
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-linkedin
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-instagram
-                                        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                        |
                                         li
                                             a(href='#')
                                                 i.icon-github
-        | &#x9;
+        |
         #fh5co-our-services(data-section='services')
             .container
                 .row.row-bottom-padded-sm
                     .col-md-12.section-heading.text-center
-                        h2.to-animate Our Services
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        h2.to-animate Οικονομία
+                        |
                         .row
                             .col-md-8.col-md-offset-2.to-animate
                                 h3
-                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                | &#x9;&#x9;&#x9;
+                                    | Οι θερμαντήρες TEPLOCERAMIC λόγω της μεταγωγής και υπέρυθρης ακτινοβολίας, θερμαίνουν ομαλά το δωμάτιο, γεγονός που μπορεί να εξοικονομήσει σημαντική ενέργεια. Επιπλέον, οι πίνακες μας έχουν 4 φορές λιγότερη ισχύ σε σύγκριση με άλλους τύπους θερμαντήρων.
+                |
                 .row
                     .col-md-4
                         .box.to-animate
                             .icon.colored-1
                                 span
-                                    i.icon-mustache
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            h3 100% free
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
-                        .box.to-animate
-                            .icon.colored-4
-                                span
-                                    i.icon-heart
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            h3 Made with love
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
+                                    i.icon-dollar
+                            |
+                            h3  30% Εξοικονόμηση ενέργειας
+                            |
+                            //- p
+                            //-     | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    |
                     .col-md-4
                         .box.to-animate
                             .icon.colored-2
                                 span
-                                    i.icon-screen-desktop
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            h3 Fully responsive
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
-                        .box.to-animate
-                            .icon.colored-5
-                                span
-                                    i.icon-rocket
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            h3 Fast &amp; light
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-                    | &#x9;&#x9;&#x9;&#x9;
+                                    i.icon-umbrella
+                            |
+                            h3 30 χρόνια διάρκεια ζωής
+
+                    |
                     .col-md-4
                         .box.to-animate
-                            .icon.colored-3
+                            .icon.colored-4
                                 span
-                                    i.icon-eye
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            h3 Retina-ready
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
-                        .box.to-animate
-                            .icon.colored-6
-                                span
-                                    i.icon-user
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            h3 For creative like you!
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-        | &#x9;
-        | &#x9;
+                                    i.icon-shield
+                            |
+                            h3 5 Χρόνια Εγγύηση
+                .row
+                    .col-md-12
+                        table.table.text-center.table-comparison
+                            thead
+                                tr
+                                    th 
+                                        |
+                                    each val in ['Teploceramic','Θερμοπομπή θερμάστρα','Θερμάστρα πετρελαίου','Λέβητες Αερίου, ηλεκτρικού και στερεού καυσίμου']
+                                        th= val
+                            tbody
+                                tr
+                                    td 
+                                        | Κόστος του εξοπλισμού και της εγκατάστασης για 50 m2
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                tr
+                                    td 
+                                        | Μηνιαίο κόστος θέρμανσης
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                    td 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                        | 
+                                        span.pricing
+                                            i.icon-euro
+                                tr
+                                    each val in ['Σχεδιασμός και προσαρμογή',	'Διαφορετικά χρώματα, πάχος 15mm', 'Δύσκολο να χρησιμοποιηθεί στο σχεδιασμό', 'Δύσκολο να χρησιμοποιηθεί στο σχεδιασμό', 'Έξτρα δωμάτιο για λέβητες και σωλήνες']
+                                        td= val
+                                tr
+                                    each val in ['Περιβάλλον και ασφάλεια', 'Δεν στεγνώνει τον αέρα ούτε αυξάνει τη σκόνη.', 'It burns oxygen, dries air, raises dust', 'Εκρηκτικό, στεγνώνει τον αέρα', 'Λειτουργία συνεπάγεται κινδύνους']
+                                        td= val
+                                tr
+                                    each val in ['Εγγύηση και διάρκεια ζωής', '5 χρόνια, 30 χρόνια +', '1 χρόνο, 15 χρόνια', '1 χρόνο, 5 χρόνια',	'1 χρόνο, 15 χρόνια' ]
+                                        td= val
+        |
+
         #fh5co-features(data-section='features')
             .container
                 .row
                     .col-md-12.section-heading.text-center
-                        h2.single-animate.animate-features-1 Features
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        h2.single-animate.animate-features-1 Γιατι να επιλέξετε ηλεκτικό πάνελ; 
+                        |
                         .row
                             .col-md-8.col-md-offset-2.single-animate.animate-features-2
-                                h3
-                                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                | &#x9;&#x9;&#x9;
+                                p
+                                    | TEPLOCERAMIC – these are compact and stylish electrical panels, made of natural materials, which are the modern alternative to traditional and expensive heating systems.
+                                p 
+                                    | Using innovative patented technologies, we created the new generation of professional heaters.
+                |
                 .row.row-bottom-padded-sm
                     .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
                         .fh5co-icon
                             i.icon-present
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .fh5co-desc
-                            h3 100% Free
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3 Economy
                             p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
+                                | Our panels have 4 times less power than oil heaters and convectors.
+                                br
+                                | Due to the uniform heating and long thermal wavelength they enable to save at least 30% in heating costs. 
+                    |
                     .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
                         .fh5co-icon
                             i.icon-eye
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .fh5co-desc
-                            h3 Retina Ready
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                            p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
+                            h3  Available
+                            p Buying TEPLOCERAMIC, you get the high quality durable product of Ukrainian manufacturer at affordable price
+
+                    |
                     .clearfix.visible-sm-block.visible-xs-block
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
                         .fh5co-icon
                             i.icon-crop
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .fh5co-desc
-                            h3 Fully Responsive
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3   Eco-friendly
+                            |
                             p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
+                                | Ceramic electric panels have beneficial properties for human health. They are made of natural stone and have a therapeutic effect, known as "stone therapy".
+
+                    |
                     .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
                         .fh5co-icon
                             i.icon-speedometer
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .fh5co-desc
-                            h3 Lightweight
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3  Stylish design
+                            |
                             p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
+                                | Heater TEPLOCERAMIC is compact and slim as the monitor (1.5 cm). It not only creates a comfortable indoor climate, but also fits into even the most modern interior.
+                    |
                     .clearfix.visible-sm-block.visible-xs-block
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
                         .fh5co-icon
                             i.icon-heart
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .fh5co-desc
-                            h3 Made with Love
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3  Absolutely silent
+                            |
                             p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
+                                | Only comfortable microclimate reminds about the presence of the heater.
+                    |
                     .col-md-4.col-sm-6.col-xs-6.col-xxs-12.fh5co-service.to-animate
                         .fh5co-icon
                             i.icon-umbrella
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .fh5co-desc
-                            h3 Eco Friendly
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            h3  Durability
+                            |
                             p
-                                | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                    | &#x9;&#x9;&#x9;&#x9;
+                                | Just install and forget!
+                                br
+                                | 30 years - lifetime.
+                                br
+                                | 5 years - warranty.
+                                br
+                                | Heaters are resistant to voltage drops.
+                    |
                     .clearfix.visible-sm-block.visible-xs-block
-                | &#x9;&#x9;&#x9;
+                |
+        |
+        #fh5co-testimonials(data-section='testimonials')
+            .container
                 .row
-                    .col-md-4.col-md-offset-4.single-animate.animate-features-3
-                        a.btn.btn-primary.btn-block(href='#') Learn More
-        | &#x9;
+                    .col-md-6
+                    .col-md-6
         #fh5co-testimonials(data-section='testimonials')
             .container
                 .row
                     .col-md-12.section-heading.text-center
                         h2.to-animate Happy Clients Says...
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .row
                             .col-md-8.col-md-offset-2.subtext.to-animate
                                 h3
                                     | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                | &#x9;&#x9;&#x9;
+                |
                 .row
                     .col-md-4
                         .box-testimony.to-animate
@@ -456,242 +508,255 @@ html.no-js
                                 span.quote
                                     span
                                         i.icon-quote-left
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     | &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             p.author
                                 | John Doe, CEO
                                 a(href='http://Sun Way/', target='_blank') Sun Way
                                 |
                                 span.subtext Creative Director
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-4
                         .box-testimony.to-animate
                             blockquote
                                 span.quote
                                     span
                                         i.icon-quote-left
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     | &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             p.author
                                 | John Doe, CEO
                                 a(href='http://Sun Way/', target='_blank') Sun Way
                                 |
                                 span.subtext Creative Director
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-4
                         .box-testimony.to-animate
                             blockquote
                                 span.quote
                                     span
                                         i.icon-quote-left
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     | &ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             p.author
                                 | John Doe, Founder
                                 a(href='#') Sun Way
                                 |
                                 span.subtext Creative Director
-        | &#x9;
+        |
         #fh5co-pricing(data-section='pricing')
             .container
                 .row
                     .col-md-12.section-heading.text-center
                         h2.single-animate.animate-pricing-1 Pricing
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .row
                             .col-md-8.col-md-offset-2.subtext.single-animate.animate-pricing-2
                                 h3
                                     | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                | &#x9;&#x9;&#x9;
+                |
                 .row
                     .col-md-3.col-sm-6
                         .price-box.to-animate
                             h2.pricing-plan Starter
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .price
                                 sup.currency $
                                 | 7
                                 small /mo
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             p Basic customer support for small business
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             hr
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             ul.pricing-info
                                 li 10 projects
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 20 Pages
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 20 Emails
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 100 Images
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             a.btn.btn-default.btn-sm(href='#') Get started
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-3.col-sm-6
                         .price-box.to-animate
                             h2.pricing-plan Regular
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .price
                                 sup.currency $
                                 | 19
                                 small /mo
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             p Basic customer support for small business
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             hr
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             ul.pricing-info
                                 li 15 projects
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 40 Pages
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 40 Emails
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 200 Images
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             a.btn.btn-default.btn-sm(href='#') Get started
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .clearfix.visible-sm-block
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-3.col-sm-6.to-animate
                         .price-box.popular
                             .popular-text Best value
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             h2.pricing-plan Plus
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .price
                                 sup.currency $
                                 | 79
                                 small /mo
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             p Basic customer support for small business
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             hr
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             ul.pricing-info
                                 li Unlimitted projects
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 100 Pages
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 100 Emails
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li 700 Images
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             a.btn.btn-primary.btn-sm(href='#') Get started
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-3.col-sm-6
                         .price-box.to-animate
                             h2.pricing-plan Enterprise
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .price
                                 sup.currency $
                                 | 125
                                 small /mo
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             p Basic customer support for small business
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             hr
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             ul.pricing-info
                                 li Unlimitted projects
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li Unlimitted Pages
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li Unlimitted Emails
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 li Unlimitted Images
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             a.btn.btn-default.btn-sm(href='#') Get started
-        | &#x9;
+        |
         #fh5co-press(data-section='press')
             .container
                 .row
                     .col-md-12.section-heading.text-center
                         h2.single-animate.animate-press-1 Press Releases
-                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        |
                         .row
                             .col-md-8.col-md-offset-2.subtext.single-animate.animate-press-2
                                 h3
                                     | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                | &#x9;&#x9;&#x9;
+                |
+                .row 
+                    .col-md-6
+                        #main-product-images74.left
+                            a.grouped_elements(data-fancybox-group='gallery74', href='http://teploceramic.pro/image/cache/catalog/TCM 400/ 370-500x500.jpg')
+                                img.big(src='http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-190x210.jpg', alt='Ceramic heater')
+                            ul
+                                li
+                                a.grouped_elements(data-fancybox-group='gallery74', href='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_beige/%20370_1-500x500.jpg')
+                                    img.small(src='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_beige/%20370_1-50x50.jpg', alt='Ceramic%20heater')
+                                li
+                                a.grouped_elements(data-fancybox-group='gallery74', href='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-500x500.jpg')
+                                    img.small(src='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-50x50.jpg', alt='Ceramic%20heater')
+
                 .row
                     .col-md-6
                         // Press Item
                         .fh5co-press-item.to-animate
                             .fh5co-press-img(style='background-image: url(images/img_7.jpg)')
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .fh5co-press-text
                                 h3.h2.fh5co-press-title
                                     | Simplicity
                                     span.fh5co-border
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     a.btn.btn-primary.btn-sm(href='#') Learn more
                         // Press Item
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-6
                         // Press Item
                         .fh5co-press-item.to-animate
                             .fh5co-press-img(style='background-image: url(images/img_8.jpg)')
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .fh5co-press-text
                                 h3.h2.fh5co-press-title
                                     | Versatile
                                     span.fh5co-border
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     a.btn.btn-primary.btn-sm(href='#') Learn more
                         // Press Item
-                    | &#x9;&#x9;&#x9;&#x9;
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
+                    |
                     .col-md-6
                         // Press Item
                         .fh5co-press-item.to-animate
                             .fh5co-press-img(style='background-image: url(images/img_9.jpg);')
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .fh5co-press-text
                                 h3.h2.fh5co-press-title
                                     | Aesthetic
                                     span.fh5co-border
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     a.btn.btn-primary.btn-sm(href='#') Learn more
                         // Press Item
-                    | &#x9;&#x9;&#x9;&#x9;
+                    |
                     .col-md-6
                         // Press Item
                         .fh5co-press-item.to-animate
                             .fh5co-press-img(style='background-image: url(images/img_10.jpg);')
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             .fh5co-press-text
                                 h3.h2.fh5co-press-title
                                     | Creative
                                     span.fh5co-border
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                                |
                                 p
                                     a.btn.btn-primary.btn-sm(href='#') Learn more
                         // Press Item
-        | &#x9;
-        | &#x9;
+        |
+        |
         footer#footer(role='contentinfo')
             .container
                 .row.row-bottom-padded-sm
@@ -701,40 +766,40 @@ html.no-js
                             a(href='index.html') Crew
                             | . All Rights Reserved.
                             br
-                            |  Free HTML5 Template by
+                            |  Sun Way by
                             a(href='http://Sun Way/', target='_blank') Sun Way
                             |  | Images by
                             a(href='http://pexels.com/', target='_blank') Pexels
                             |  &amp;
                             a(href='http://unsplash.com/', target='_blank') Unsplash
-                | &#x9;&#x9;&#x9;
+                |
                 .row
                     .col-md-12.text-center
                         ul.social.social-circle
                             li
                                 a(href='#')
                                     i.icon-twitter
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             li
                                 a(href='#')
                                     i.icon-facebook
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             li
                                 a(href='#')
                                     i.icon-youtube
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             li
                                 a(href='#')
                                     i.icon-pinterest
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             li
                                 a(href='#')
                                     i.icon-linkedin
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             li
                                 a(href='#')
                                     i.icon-instagram
-                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                            |
                             li
                                 a(href='#')
                                     i.icon-dribbble

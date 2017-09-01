@@ -1,9 +1,10 @@
-$font-primary: 'Source Sans Pro',
-Arial,
-sans-serif;
+// $font-primary: 'Source Sans Pro',
+$font-primary: 'Play',
+sans-serif,
+Arial;
 // Overrides
 $grid-gutter-width: 40px !default;
-$border-radius-base : 4px !default;
+$border-radius-base: 4px !default;
 $padding-base-vertical: 14px !default;
 $brand-primary: #6173f4 !default; // purple
 // $brand-primary: #f64662 !default; // pink
@@ -22,8 +23,8 @@ $brand-body-color: #818892;
 $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
-$input-border-focus : $brand-primary !default;
-$form-group-margin-bottom : 30px !default;
+$input-border-focus: $brand-primary !default;
+$form-group-margin-bottom: 30px !default;
 // Mixin
 @mixin transition($transition) {
     -moz-transition: $transition ease-in;
@@ -266,6 +267,9 @@ h6 {
         font-weight: 700;
         padding-left: 0;
         color: $brand-white;
+        img {
+            width: 240px;
+        }
     }
     &.navbar-fixed-top {
         position: fixed!important;
@@ -343,7 +347,7 @@ h6 {
         font-weight: 300;
         // letter-spacing: 2px;
         color: #444;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         position: relative;
         display: block;
         padding-bottom: 20px;
@@ -376,6 +380,10 @@ h6 {
 
 .btn {
     @include transition(.3s);
+}
+
+img.img-center {
+    margin: 0 auto;
 }
 
 #fh5co-our-services,
@@ -1128,6 +1136,8 @@ h6 {
             vertical-align: middle;
             z-index: 10;
             position: relative;
+            background-clip: content-box;
+            background-color: transparentize($brand-lighter, 0.5);
             @media screen and (max-width: $screen-sm) {
                 // padding-top: 5em;
             }
@@ -1149,8 +1159,7 @@ h6 {
             }
             .fh5co-lead {
                 font-weight: 700;
-                margin-bottom: 20px;
-                margin-top: 0;
+                margin: 0 1rem 1rem;
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 color: #fff;
@@ -1165,9 +1174,9 @@ h6 {
             }
             .fh5co-sub-lead {
                 font-size: 30px;
-                line-height: 30px;
                 line-height: 42px;
                 font-weight: 100;
+                margin-left: 1rem;
                 margin-bottom: 30px;
                 color: rgba(255, 255, 255, 1);
                 // font-family: $font-roboto;
@@ -1221,4 +1230,9 @@ h6 {
     animation-duration: .3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+// table comparison
+.table-comparison td {
+    width: 20%;
 }

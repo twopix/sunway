@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Play", sans-serif, Arial;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Play", sans-serif, Arial;
   font-weight: 400; }
 
 ::-webkit-selection {
@@ -91,7 +91,7 @@ h6 {
     padding-bottom: 0;
     margin-bottom: 0; }
   #fh5co-header #navbar li a {
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Play", sans-serif, Arial;
     color: rgba(255, 255, 255, 0.5);
     position: relative; }
     #fh5co-header #navbar li a span {
@@ -132,6 +132,8 @@ h6 {
     font-weight: 700;
     padding-left: 0;
     color: #fff; }
+    #fh5co-header .navbar-brand img {
+      width: 240px; }
   #fh5co-header.navbar-fixed-top {
     position: fixed !important;
     background: #fff;
@@ -187,7 +189,6 @@ h6 {
     font-size: 50px;
     font-weight: 300;
     color: #444;
-    text-transform: uppercase;
     position: relative;
     display: block;
     padding-bottom: 20px;
@@ -217,6 +218,9 @@ h6 {
 .btn {
   -webkit-transition: 0.3s;
   transition: 0.3s; }
+
+img.img-center {
+  margin: 0 auto; }
 
 #fh5co-our-services,
 #fh5co-about-us,
@@ -806,7 +810,9 @@ h6 {
     display: table-cell;
     vertical-align: middle;
     z-index: 10;
-    position: relative; }
+    position: relative;
+    background-clip: content-box;
+    background-color: rgba(233, 233, 233, 0.5); }
     .owl-carousel-fullwidth .item .fh5co-owl-text a {
       color: white;
       border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
@@ -822,8 +828,7 @@ h6 {
       padding: 0; }
     .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
       font-weight: 700;
-      margin-bottom: 20px;
-      margin-top: 0;
+      margin: 0 1rem 1rem;
       text-transform: uppercase;
       letter-spacing: 1px;
       color: #fff;
@@ -837,9 +842,9 @@ h6 {
           line-height: 30px; } }
     .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
       font-size: 30px;
-      line-height: 30px;
       line-height: 42px;
       font-weight: 100;
+      margin-left: 1rem;
       margin-bottom: 30px;
       color: white; }
       @media screen and (max-width: 768px) {
@@ -880,5 +885,8 @@ h6 {
   animation-duration: .3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
+
+.table-comparison td {
+  width: 20%; }
 
 /*# sourceMappingURL=style.css.map */

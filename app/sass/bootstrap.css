@@ -2031,9 +2031,6 @@ caption {
   color: #777777;
   text-align: left; }
 
-th {
-  text-align: left; }
-
 .table {
   width: 100%;
   max-width: 100%;
@@ -2046,7 +2043,7 @@ th {
   .table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857;
-    vertical-align: top;
+    vertical-align: middle;
     border-top: 1px solid #ddd; }
   .table > thead > tr > th {
     vertical-align: bottom;

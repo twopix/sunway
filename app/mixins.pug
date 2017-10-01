@@ -1,0 +1,6 @@
+mixin gallery(gid, items)
+    ul
+        each  image in items
+            li
+                a.grouped_elements(data-fancybox-group=`gallery${gid}`, href=`${image.ahref}`)
+                    img.small(src=`${image.imgsrc}`, alt=`${image.alt}`)

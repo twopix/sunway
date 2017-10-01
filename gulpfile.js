@@ -2,6 +2,8 @@ var gulp = require('gulp'),
     watch = require('gulp-watch'),
     sass = require('gulp-sass'),
     pug = require('gulp-pug'),
+    data = require('gulp-data'),
+    fs = require('fs'),
     sourcemaps = require('gulp-sourcemaps'),
     cssBase64 = require('gulp-css-base64'),
     path = require('path'),
@@ -40,7 +42,11 @@ gulp.task('sass', function() {
 // run this task by typing in gulp pug in CLI
 gulp.task('pug', function() {
     return gulp.src('app/*.pug')
+        .pipe(data(function(file) {
+            return JSON.parse(fs.readFileSync('./app/data.json'))
+        }))
         .pipe(pug({
+                pretty: true,
                 errLogToConsole: false,
                 paths: [path.join(__dirname, 'pug', 'includes')]
             })
@@ -56,23 +62,23 @@ gulp.task('pug', function() {
 
 // copy vendor files
 gulp.task('copy-files', function() {
-  gulp.src(['./node_modules/animate.css/animate.css','./app/css/*.css', './node_modules/owl.carousel/dist/assets/*.*'])
-    .pipe(gulp.dest('./dist/css'));
-  gulp.src(['./app/js/*.js'])
-    .pipe(gulp.dest('./dist/js'));
-  gulp.src(['./app/fonts/**/*'])
-    .pipe(gulp.dest('./dist/fonts'));
-  gulp.src(['./app/images/**/*'])
-    .pipe(gulp.dest('./dist/images'));
+    gulp.src(['./node_modules/animate.css/animate.css', './app/css/*.css', './node_modules/owl.carousel/dist/assets/*.*'])
+        .pipe(gulp.dest('./dist/css'));
+    gulp.src(['./app/js/*.js'])
+        .pipe(gulp.dest('./dist/js'));
+    gulp.src(['./app/fonts/**/*'])
+        .pipe(gulp.dest('./dist/fonts'));
+    gulp.src(['./app/images/**/*'])
+        .pipe(gulp.dest('./dist/images'));
 });
 
 
-// Task to Minify JS
-gulp.task('jsmin', function() {
-    return gulp.src('./app/js/**/*.js')
-        .pipe(uglify())
-        .pipe(gulp.dest('./dist/js/'));
-});
+// // Task to Minify JS
+// gulp.task('jsmin', function() {
+//     return gulp.src('./app/js/**/*.js')
+//         .pipe(uglify())
+//         .pipe(gulp.dest('./dist/js/'));
+// });
 
 // Minify Images
 gulp.task('imagemin', function() {
@@ -121,5 +127,5 @@ gulp.task('default', ['watch']);
 
 // Gulp Build Task
 gulp.task('build', function() {
-    runSequence('clean', 'sass', 'pug', 'imagemin', 'copy-files', 'jsmin', 'inlinesource');
+    runSequence('clean', 'sass', 'pug', 'imagemin', 'copy-files', 'inlinesource');
 });

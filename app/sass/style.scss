@@ -1236,3 +1236,78 @@ img.img-center {
 .table-comparison td {
     width: 20%;
 }
+
+.dd-option-image,
+.dd-selected-image {
+    padding-top: 8px;
+    position: relative;
+}
+
+.dd-desc {
+    display: none !important;
+}
+
+.left>a {
+    margin-right: 9px;
+    position: relative;
+    display: inline-block;
+}
+
+.left ul {
+    padding-left: 0;
+    display: inline-block;
+    max-width: 120px;
+    vertical-align: top;
+}
+
+.left ul li {
+    display: inline-block;
+}
+
+.left ul li:nth-child(odd) {
+    margin-right: 7px;
+    margin-bottom: 14px;
+}
+hr {
+    margin: 6rem 0;
+    border-color: #fff;
+}
+h2.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+h4.type {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #333;
+}
+.serie {
+  margin: 9rem 0 5rem;
+  line-height: 3rem;
+  img {
+    height: 3rem;
+  }
+}
+
+.TCM    {
+  color: #ef7d00;
+  border-top:1px solid #ef7d00;
+  img {
+    background: #ef7d00;
+  }
+}
+.TCMRA  {
+  color: #e22d1e;
+  border-top:1px solid #e22d1e;
+  img {
+    background: #e22d1e;
+  }
+}
+
+
+.product_74 {
+  display: none;
+}

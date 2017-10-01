@@ -1,3 +1,5 @@
+//include ./data
+include ./mixins
 doctype html
 //if lt IE 7
   html.no-js.lt-ie9.lt-ie8.lt-ie7
@@ -43,6 +45,9 @@ html.no-js
         link(rel='stylesheet', href='css/owl.theme.default.min.css')
         // Bootstrap
         link(rel='stylesheet', href='css/bootstrap.css')
+
+        // fancybox
+        link(rel="stylesheet", href="css/jquery.fancybox.min.css")
   
         link(rel='stylesheet', href='css/style.css')
 
@@ -75,19 +80,22 @@ html.no-js
                                     span Τεχνολογία
                             li
                                 a(href='#', data-nav-section='services')
-                                    span Κατάλογος
+                                    span Εξοικονόμηση
                             li
                                 a(href='#', data-nav-section='features')
                                     span Features
-                            li
+                            //li
                                 a(href='#', data-nav-section='testimonials')
                                     span Testimonials
-                            li
+                            //li
                                 a(href='#', data-nav-section='pricing')
                                     span Pricing
                             li
                                 a(href='#', data-nav-section='press')
-                                    span Press
+                                    span Προϊόντα
+                            li
+                                a(href='#', data-nav-section='contact')
+                                    span Επικοινωνία
                 // </div>
         |
         #slider(data-section='home')
@@ -105,7 +113,7 @@ html.no-js
                                             | μηνιαία εξοικονόμηση θέρμανσης
                                             |
                                             p.to-animate-2
-                                                a.btn.btn-primary.btn-lg(href='#') View Case Study
+                                                a.btn.btn-primary.btn-lg(href='#') ΥΠΕΡΥΘΡΕΣ ΜΕΤΑΛΛΙΚΕΣ ΠΛΑΚΕΣ
                             |
                             .col-md-4.col-md-push-1.col-sm-4.col-sm-push-1.iphone-image
                                 .iphone.to-animate-2
@@ -117,14 +125,14 @@ html.no-js
                             .col-md-7.col-md-push-1.col-md-push-5.col-sm-7.col-sm-push-1.col-sm-push-5
                                 .fh5co-owl-text-wrap
                                     .fh5co-owl-text
-                                        h1.fh5co-lead.to-animate Case Study Title
+                                        h1.fh5co-lead.to-animate ΟΙΚΟΛΟΓΙΑ
                                         |
                                         h2.fh5co-sub-lead.to-animate
                                             | 100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at
                                             a(href='http://Sun Way/', target='_blank') Sun Way
                                             |
                                             p.to-animate-2
-                                                a.btn.btn-primary.btn-lg(href='#') View Case Study
+                                                a.btn.btn-primary.btn-lg(href='#') ΥΠΕΡΥΘΡΕΣ ΜΕΤΑΛΛΙΚΕΣ ΠΛΑΚΕΣ
                             |
                             .col-md-4.col-md-pull-7.col-sm-4.col-sm-pull-7.iphone-image
                                 .iphone.to-animate-2
@@ -138,13 +146,13 @@ html.no-js
                             .col-md-8.col-md-offset-2.text-center
                                 .fh5co-owl-text-wrap
                                     .fh5co-owl-text
-                                        h1.fh5co-lead.to-animate Οικολογια
+                                        h1.fh5co-lead.to-animate ΘΕΡΜΑΝΣΗ
                                         h2.fh5co-sub-lead.to-animate
                                             | Ομοιόμορφη κατανομή θερμότητας
                                             a(href='http://Sun Way/', target='_blank') Sun Way
                                             |
                                             p.to-animate-2
-                                                a.btn.btn-primary.btn-lg(href='http://Sun Way/', target='_blank') Download This Template
+                                                a.btn.btn-primary.btn-lg(href='http://Sun Way/', target='_blank') ΥΠΕΡΥΘΡΕΣ ΜΕΤΑΛΛΙΚΕΣ ΠΛΑΚΕΣ
 
                 .item(style='background-image:url(images/4.jpg)')
                     .overlay
@@ -157,10 +165,9 @@ html.no-js
                                         h1.fh5co-lead.to-animate Οικονομία
                                         h2.fh5co-sub-lead.to-animate
                                             | Ομοιόμορφη κατανομή θερμότητας
-                                            a(href='http://Sun Way/', target='_blank') Sun Way
                                             |
                                             p.to-animate-2
-                                                a.btn.btn-primary.btn-lg(href='http://Sun Way/', target='_blank') Download This Template
+                                                a.btn.btn-primary.btn-lg(href='http://Sun Way/', target='_blank') ΥΠΕΡΥΘΡΕΣ ΜΕΤΑΛΛΙΚΕΣ ΠΛΑΚΕΣ
         |
         |
         #fh5co-about-us(data-section='about')
@@ -181,7 +188,7 @@ html.no-js
                         img.img-responsive.img-rounded.img-center(src='images/how-it-works.png', alt='Sun Way')
                         
                 |
-                #team.row
+                //#team.row
                     .col-md-12.section-heading.text-center.to-animate
                         h2 Team
                     |
@@ -280,7 +287,7 @@ html.no-js
                         .row
                             .col-md-8.col-md-offset-2.to-animate
                                 h3
-                                    | Οι θερμαντήρες TEPLOCERAMIC λόγω της μεταγωγής και υπέρυθρης ακτινοβολίας, θερμαίνουν ομαλά το δωμάτιο, γεγονός που μπορεί να εξοικονομήσει σημαντική ενέργεια. Επιπλέον, οι πίνακες μας έχουν 4 φορές λιγότερη ισχύ σε σύγκριση με άλλους τύπους θερμαντήρων.
+                                    | Οι θερμαντήρες TEPLOCERAMIC λόγω της μεταγωγής και υπέρυθρης ακτινοβολίας, θερμαίνουν ομαλά το δωμάτιο, γεγονός που μπορεί να εξοικονομήσει σημαντική ενέργεια. Επιπλέον, οι πίνακες μας έχουν 4 φορές λιγότερη κατανάλωση σε σύγκριση με άλλους τύπους θερμαντήρων.
                 |
                 .row
                     .col-md-4
@@ -485,12 +492,12 @@ html.no-js
                     .clearfix.visible-sm-block.visible-xs-block
                 |
         |
-        #fh5co-testimonials(data-section='testimonials')
+        //#fh5co-testimonials(data-section='testimonials')
             .container
                 .row
                     .col-md-6
                     .col-md-6
-        #fh5co-testimonials(data-section='testimonials')
+        //#fh5co-testimonials(data-section='testimonials')
             .container
                 .row
                     .col-md-12.section-heading.text-center
@@ -550,7 +557,7 @@ html.no-js
                                 |
                                 span.subtext Creative Director
         |
-        #fh5co-pricing(data-section='pricing')
+        //#fh5co-pricing(data-section='pricing')
             .container
                 .row
                     .col-md-12.section-heading.text-center
@@ -663,115 +670,85 @@ html.no-js
                             a.btn.btn-default.btn-sm(href='#') Get started
         |
         #fh5co-press(data-section='press')
-            .container
+            #mini-price-link.container.mini-price
                 .row
                     .col-md-12.section-heading.text-center
-                        h2.single-animate.animate-press-1 Press Releases
+                        h2.single-animate.animate-press-1 Κατάλογος
                         |
                         .row
                             .col-md-8.col-md-offset-2.subtext.single-animate.animate-press-2
                                 h3
                                     | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                 |
-                .row 
-                    .col-md-6
-                        #main-product-images74.left
-                            a.grouped_elements(data-fancybox-group='gallery74', href='http://teploceramic.pro/image/cache/catalog/TCM 400/ 370-500x500.jpg')
-                                img.big(src='http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-190x210.jpg', alt='Ceramic heater')
-                            ul
-                                li
-                                a.grouped_elements(data-fancybox-group='gallery74', href='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_beige/%20370_1-500x500.jpg')
-                                    img.small(src='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_beige/%20370_1-50x50.jpg', alt='Ceramic%20heater')
-                                li
-                                a.grouped_elements(data-fancybox-group='gallery74', href='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-500x500.jpg')
-                                    img.small(src='http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-50x50.jpg', alt='Ceramic%20heater')
+                each row in products
+                    div(class=`${row.serie}`).row.serie
+                        .col-md-6
+                            img(src=`${row.imgsrc}`, alt=`${row.serie}`).img-responsive
+                        .col-md-6
+                            .pull-right= row.serieName
+                    |
+                    div(class=`product_${row.productid}`).row
+                        .col-md-4
+                            .product-id(style='display:none')= row.productid
+                            div(id=`main-product-images${row.productid}`).left
+                            .left(class=`${row.productid}`,style='display:none;')
+                                a.grouped_elements(data-fancybox-group=`gallery${row.productid}`, href=`${row.left.ahref}`)
+                                    img.big(src=`${row.left.imgsrc}`, alt=`${row.left.alt}`)
+                                ul
+                                    each lister in row.left.ul
+                                        li
+                                            a.grouped_elements(data-fancybox-group=`gallery${row.productid}`, href=`${lister.ahref}`)
+                                                img.small(src=`${lister.imgsrc}`, alt=`${lister.alt}`)
+                        .col-md-4
+                            .middle
+                                h2.title= row.middle.title
+                                h4.type= row.middle.type
+                                h3.model= row.middle.model
+                                label(for=`mramor${row.productid}`)
+                                select(id=`mramor${row.productid}`,name='mramor').mramor
+                                    - var selector = row.middle.select
+                                    each sel in selector
+                                        option(value=`${sel.value}`, data-description=`${sel.dataDescription}`, data-imagesrc=`${sel.dataImagesrc}`)= sel.name
 
-                .row
-                    .col-md-6
-                        // Press Item
-                        .fh5co-press-item.to-animate
-                            .fh5co-press-img(style='background-image: url(images/img_7.jpg)')
-                            |
-                            .fh5co-press-text
-                                h3.h2.fh5co-press-title
-                                    | Simplicity
-                                    span.fh5co-border
-                                |
-                                p
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                |
-                                p
-                                    a.btn.btn-primary.btn-sm(href='#') Learn more
-                        // Press Item
+                            -var gallery = row.middle.gallery
+                            //b= JSON.stringify(gallery)
+                            each gal in gallery
+                                .left(class=`${gal.galleryId}`, style='display:none;')
+                                    a.grouped_elements(data-fancybox-group=`gallery${gal.galleryId}`, href=`${gal.ahref}`)
+                                        img.big(src=`${gal.imgsrc}`, alt=`${gal.alt}`)
+                                    +gallery(gal.galleryId, gal.li)
+
+                        .col-md-4
+                            .right
+                                table.table
+                                    tr
+                                        td Ισχύς
+                                        td= row.table.Capacity
+                                    tr
+                                        td Έκταση
+                                        td= row.table.Area
+                                    tr
+                                        td Ρυθμιστής
+                                        td= row.table.Regulator
+                                    tr
+                                        td Μέγεθος
+                                        td= row.table.Size
+                                    tr
+                                        td Τάση
+                                        td= row.table.Voltage
                     |
-                    .col-md-6
-                        // Press Item
-                        .fh5co-press-item.to-animate
-                            .fh5co-press-img(style='background-image: url(images/img_8.jpg)')
-                            |
-                            .fh5co-press-text
-                                h3.h2.fh5co-press-title
-                                    | Versatile
-                                    span.fh5co-border
-                                |
-                                p
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                |
-                                p
-                                    a.btn.btn-primary.btn-sm(href='#') Learn more
-                        // Press Item
-                    |
-                    |
-                    .col-md-6
-                        // Press Item
-                        .fh5co-press-item.to-animate
-                            .fh5co-press-img(style='background-image: url(images/img_9.jpg);')
-                            |
-                            .fh5co-press-text
-                                h3.h2.fh5co-press-title
-                                    | Aesthetic
-                                    span.fh5co-border
-                                |
-                                p
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                |
-                                p
-                                    a.btn.btn-primary.btn-sm(href='#') Learn more
-                        // Press Item
-                    |
-                    .col-md-6
-                        // Press Item
-                        .fh5co-press-item.to-animate
-                            .fh5co-press-img(style='background-image: url(images/img_10.jpg);')
-                            |
-                            .fh5co-press-text
-                                h3.h2.fh5co-press-title
-                                    | Creative
-                                    span.fh5co-border
-                                |
-                                p
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...
-                                |
-                                p
-                                    a.btn.btn-primary.btn-sm(href='#') Learn more
-                        // Press Item
-        |
         |
         footer#footer(role='contentinfo')
             .container
                 .row.row-bottom-padded-sm
                     .col-md-12
                         p.copyright.text-center
-                            | &copy; 2015 Free
-                            a(href='index.html') Crew
+                            | &copy; 2017
+                            a(href='index.html') Sun Way
                             | . All Rights Reserved.
                             br
-                            |  Sun Way by
-                            a(href='http://Sun Way/', target='_blank') Sun Way
-                            |  | Images by
-                            a(href='http://pexels.com/', target='_blank') Pexels
-                            |  &amp;
-                            a(href='http://unsplash.com/', target='_blank') Unsplash
+                            |  Created by
+                            a(href='http://www.twopix.gr/', target='_blank') (2p) Twopix
                 |
                 .row
                     .col-md-12.text-center
@@ -790,19 +767,11 @@ html.no-js
                             |
                             li
                                 a(href='#')
-                                    i.icon-pinterest
-                            |
-                            li
-                                a(href='#')
                                     i.icon-linkedin
                             |
                             li
                                 a(href='#')
                                     i.icon-instagram
-                            |
-                            li
-                                a(href='#')
-                                    i.icon-dribbble
         // jQuery
         script(src='js/jquery.min.js')
         // jQuery Easing
@@ -813,5 +782,13 @@ html.no-js
         script(src='js/jquery.waypoints.min.js')
         // Owl Carousel
         script(src='js/owl.carousel.min.js')
+        // Mini-site js
+        script(src='js/mini-price.js')
+        // Fancybox
+        script(src='js/jquery.fancybox.min.js')
+        // ddslick
+        script(src="js/jquery.ddslick.min.js")
         // Main JS (Do not remove)
         script(src='js/main.js')
+
+        

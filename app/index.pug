@@ -557,7 +557,7 @@ html.no-js
                                 |
                                 span.subtext Creative Director
         |
-        //#fh5co-pricing(data-section='pricing')
+        #fh5co-pricing(data-section='pricing')
             .container
                 .row
                     .col-md-12.section-heading.text-center
@@ -571,12 +571,11 @@ html.no-js
                 .row
                     .col-md-3.col-sm-6
                         .price-box.to-animate
-                            h2.pricing-plan Starter
+                            h2.pricing-plan ΘΕΡΜΟΣΙΦΩΝΑ
                             |
                             .price
-                                sup.currency $
-                                | 7
-                                small /mo
+                                p.quarantee
+                                    | 1 έτους εγγύηση
                             |
                             p Basic customer support for small business
                             |
@@ -595,12 +594,11 @@ html.no-js
                     |
                     .col-md-3.col-sm-6
                         .price-box.to-animate
-                            h2.pricing-plan Regular
+                            h2.pricing-plan ΛΑΔΙ ΘΕΡΜΑΝΤΗΡΑ
                             |
                             .price
-                                sup.currency $
-                                | 19
-                                small /mo
+                                p.quarantee
+                                    | 1 έτους εγγύηση
                             |
                             p Basic customer support for small business
                             |
@@ -621,14 +619,15 @@ html.no-js
                     |
                     .col-md-3.col-sm-6.to-animate
                         .price-box.popular
-                            .popular-text Best value
+                            .popular-text
+                                img(src="images/teploceramic.png").img-responsive
+                                img(src="images/sunway.png").img-responsive
                             |
-                            h2.pricing-plan Plus
+                            h2.pricing-plan
                             |
                             .price
-                                sup.currency $
-                                | 79
-                                small /mo
+                                p.quarantee
+                                    | 5 ετών εγγύηση
                             |
                             p Basic customer support for small business
                             |
@@ -647,12 +646,11 @@ html.no-js
                     |
                     .col-md-3.col-sm-6
                         .price-box.to-animate
-                            h2.pricing-plan Enterprise
+                            h2.pricing-plan Λέβητες Αερίου, ηλεκτρικού και στερεά κάυσιμα
                             |
                             .price
-                                sup.currency $
-                                | 125
-                                small /mo
+                                p.quarantee
+                                    | 1 έτους εγγύηση
                             |
                             p Basic customer support for small business
                             |
@@ -682,10 +680,10 @@ html.no-js
                 |
                 each row in products
                     div(class=`${row.serie}`).row.serie
+                        .col-md-6= row.serieName
                         .col-md-6
-                            img(src=`${row.imgsrc}`, alt=`${row.serie}`).img-responsive
-                        .col-md-6
-                            .pull-right= row.serieName
+                            .pull-right
+                                img(src=`${row.imgsrc}`, alt=`${row.serie}`).img-responsive
                     |
                     div(class=`product_${row.productid}`).row
                         .col-md-4
@@ -693,7 +691,7 @@ html.no-js
                             div(id=`main-product-images${row.productid}`).left
                             .left(class=`${row.productid}`,style='display:none;')
                                 a.grouped_elements(data-fancybox-group=`gallery${row.productid}`, href=`${row.left.ahref}`)
-                                    img.big(src=`${row.left.imgsrc}`, alt=`${row.left.alt}`)
+                                    img.big.img-responsive(src=`${row.left.imgsrc}`, alt=`${row.left.alt}`)
                                 ul
                                     each lister in row.left.ul
                                         li
@@ -715,27 +713,32 @@ html.no-js
                             each gal in gallery
                                 .left(class=`${gal.galleryId}`, style='display:none;')
                                     a.grouped_elements(data-fancybox-group=`gallery${gal.galleryId}`, href=`${gal.ahref}`)
-                                        img.big(src=`${gal.imgsrc}`, alt=`${gal.alt}`)
+                                        img.big.img-responsive(src=`${gal.imgsrc}`, alt=`${gal.alt}`)
                                     +gallery(gal.galleryId, gal.li)
 
                         .col-md-4
                             .right
-                                table.table
-                                    tr
-                                        td Ισχύς
-                                        td= row.table.Capacity
-                                    tr
-                                        td Έκταση
-                                        td= row.table.Area
-                                    tr
-                                        td Ρυθμιστής
-                                        td= row.table.Regulator
-                                    tr
-                                        td Μέγεθος
-                                        td= row.table.Size
-                                    tr
-                                        td Τάση
-                                        td= row.table.Voltage
+                                table.table.table-hover.tblattributes
+                                    thead
+                                        tr
+                                            th
+                                            th= row.middle.model
+                                    tbody
+                                        tr
+                                            td Ισχύς
+                                            td= row.table.Capacity
+                                        tr
+                                            td Έκταση
+                                            td= row.table.Area
+                                        //tr
+                                        //    td Ρυθμιστής
+                                        //    td= row.table.Regulator
+                                        tr
+                                            td Μέγεθος
+                                            td= row.table.Size
+                                        tr
+                                            td Τάση
+                                            td= row.table.Voltage
                     |
         |
         footer#footer(role='contentinfo')

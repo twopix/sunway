@@ -492,13 +492,14 @@ img.img-center {
             .popular-text {
                 top: 0;
                 left: 50%;
-                margin-left: -54px;
+                margin-left: -64px;
                 margin-top: -2em;
                 position: absolute;
                 padding: 4px 20px;
                 background: $brand-primary;
                 color: $brand-white;
                 @include border-radius(4px);
+                width: 50%;
                 &:after {
                     content: "";
                     position: absolute;
@@ -516,10 +517,23 @@ img.img-center {
     .pricing-plan {
         margin: 0;
         padding: 0;
+        height: 6rem;
         font-size: 15px;
         letter-spacing: 2px;
-        text-transform: uppercase;
         font-weight: 700;
+    }
+    .quarantee {
+      font-size: 1.6rem;
+      width: 50%;
+      line-height: 1.6rem;
+      margin: 1rem auto;
+      text-align: left;
+      &:first-letter {
+        font-size: 400%;
+        line-height: 4rem;
+        float: left;
+
+      }
     }
     .price {
         font-size: 50px;
@@ -1251,6 +1265,21 @@ img.img-center {
     margin-right: 9px;
     position: relative;
     display: inline-block;
+    width: 190px;
+    height: 210px;
+    background: white;
+  >img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 
 .left ul {
@@ -1262,12 +1291,22 @@ img.img-center {
 
 .left ul li {
     display: inline-block;
+    a.grouped_elements {
+      position: relative;
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: white;
+    }
 }
-
+img.small {
+  width: 50px;
+}
 .left ul li:nth-child(odd) {
     margin-right: 7px;
     margin-bottom: 14px;
 }
+
 hr {
     margin: 6rem 0;
     border-color: #fff;
@@ -1283,6 +1322,9 @@ h4.type {
   font-size: 1.5rem;
   font-weight: normal;
   color: #333;
+}
+table.tblattributes td:nth-child(2) {
+  text-align: center;
 }
 .serie {
   margin: 9rem 0 5rem;
@@ -1304,6 +1346,34 @@ h4.type {
   border-top:1px solid #e22d1e;
   img {
     background: #e22d1e;
+  }
+}
+.SW  {
+  color: #757575;
+  border-top:1px solid #757575;
+  img {
+    background: #757575;
+  }
+}
+.SWG {
+  color: #757575;
+  border-top:1px solid #757575;
+  img {
+    background: #757575;
+  }
+}
+.SWH  {
+  color: #4eb051;
+  border-top:1px solid #4eb051;
+  img {
+    background: #4eb051;
+  }
+}
+.SWHRE  {
+  color: #4eb051;
+  border-top:1px solid #4eb051;
+  img {
+    background: #fff;
   }
 }
 

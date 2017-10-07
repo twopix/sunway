@@ -1,0 +1,1395 @@
+{
+    "products": [
+        {
+            "productid": "73",
+            "serie": "TCM",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
+            "imgsrc": "images/teploceramic.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/TCM 400/ 400  w-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400%20%20w-190x210.jpg",
+                "alt": "Керамический обогреватель",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_white/%20370%20белый%203-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_white/%20370%20белый%203-50x50.jpg",
+                        "alt": "Керамический обогреватель"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_white/wsgat-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_white/wsgat-50x50.jpg",
+                        "alt": "Керамический обогреватель"
+                    }
+                ]
+            },
+
+            "middle": {
+              "title": "Μοντέλο προϋπολογισμού",
+              "type": "για την κοινωνική σφαίρα και την αστική κατασκευή",
+              "model": "TC-370",
+              "select": [{
+                        "value": "73",
+                        "dataDescription": "73",
+                        "dataImagesrc": "images/white.png",
+                        "name": "White"
+                    },
+                    {
+                        "value": "51",
+                        "dataDescription": "73",
+                        "dataImagesrc": "images/black.png",
+                        "name": "Black "
+                    },
+                    {
+                      "value": "74",
+                      "dataDescription": "73",
+                      "dataImagesrc": "images/beg4905.png",
+                      "name": "Μπεζ"
+                    }
+                ],
+                "gallery": [{
+                    "galleryId": "51",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370%20черный%201-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370%20черный%201-190x210.jpg",
+                    "alt": "Керамический обогреватель",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-50x50.jpg",
+                        "alt": "Керамический обогреватель"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/%20370%20черный%203-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/%20370%20черный%203-50x50.jpg",
+                        "alt": "Керамический обогреватель" }]
+                    },{
+                    "galleryId": "71",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-190x210.jpg",
+                    "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)",
+                    "li": [{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_beige/%20370_1-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_beige/%20370_1-50x50.jpg",
+                      "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)"
+                    },{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TC_370/TC_370_black/bsgat-50x50.jpg",
+                      "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)" }]
+                  }]
+            },
+            "table": {
+                "Capacity": "395 W",
+                "Area": "8 m2",
+                "Regulator": "",
+                "Size": "600х600х11 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "62",
+            "serie": "TCM",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
+            "imgsrc": "images/teploceramic.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/TCM 400/ 400  w-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400%20%20w-190x210.jpg",
+                "alt": " Ceramic heater",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%204-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%204-50x50.jpg",
+                        "alt": " Ceramic heater"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%203-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%203-50x50.jpg",
+                        "alt": " Ceramic heater"
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Κλασικό μοντέλο",
+              "type": "Τέλειο μέγεθος + συμπαγές χρώμα της μπροστινής πλευράς",
+              "model": "TCM-400",
+              "select": [{
+                        "value": "62",
+                        "dataDescription": "62",
+                        "dataImagesrc": "images/white.png",
+                        "name": "White"
+                    },
+                    {
+                        "value": "63",
+                        "dataDescription": "62",
+                        "dataImagesrc": "images/black.png",
+                        "name": "Black "
+                    },
+                    {
+                        "value": "76",
+                        "dataDescription": "62",
+                        "dataImagesrc": "images/beg4905.png",
+                        "name": "Μπεζ "
+                    }
+                ],
+                "gallery": [{
+                    "galleryId": "63",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370%20черный%201-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370%20черный%201-190x210.jpg",
+                    "alt": "Керамический обогреватель ТСМ",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20черный%203-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20черный%203-50x50.jpg",
+                        "alt": "Керамический обогреватель ТСМ"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%204-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%204-50x50.jpg",
+                        "alt": "Керамический обогреватель ТСМ" }]
+                    },{
+                    "galleryId": "76",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-190x210.jpg",
+                    "alt": " Ceramic heater ТСМ",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%204-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/ТСМ%20400%20белый%204-50x50.jpg",
+                        "alt": " Ceramic heater ТСМ"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400_1-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400_1-50x50.jpg",
+                        "alt": " Ceramic heater ТСМ" }]
+                }]
+            },
+            "table": {
+                "Capacity": "400 W",
+                "Area": "8 m2",
+                "Regulator": "",
+                "Size": "600х600х14 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "83",
+            "serie": "TCMRA",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
+            "imgsrc": "images/teploceramic_RA.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/TCM 400/ 400  w-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400%20%20w-190x210.jpg",
+                "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/white-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/white-50x50.jpg",
+                        "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/TCM%20500%20RA_w-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/TCM%20500%20RA_w-50x50.jpg",
+                        "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)"
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Το κλασικό μοντέλο βελτιώνεται με τον ενσωματωμένο θερμοστάτη",
+              "type": "Η δυνατότητα προσαρμογής της θερμοκρασίας: πάνελ (40C έως 95C), αέρας στο δωμάτιο (5C έως 35C)",
+              "model": "ТСМ-RA 500",
+              "select": [{
+                        "value": "83",
+                        "dataDescription": "83",
+                        "dataImagesrc": "images/white.png",
+                        "name": "Λευκό"
+                    },
+                    {
+                        "value": "84",
+                        "dataDescription": "83",
+                        "dataImagesrc": "images/black.png",
+                        "name": "Μαύρο"
+                    },
+                    {
+                        "value": "85",
+                        "dataDescription": "83",
+                        "dataImagesrc": "images/beg4905.png",
+                        "name": "Μπεζ"
+                    }
+                ],
+              "gallery": [{
+                    "galleryId": "84",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370%20черный%201-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370%20черный%201-190x210.jpg",
+                    "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/black-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/black-50x50.jpg",
+                        "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/TCM%20500%20RA_bl-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/TCM%20500%20RA_bl-50x50.jpg",
+                        "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)" }]
+                    }, {
+                    "galleryId": "85",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20370-190x210.jpg",
+                    "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/beige-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/beige-50x50.jpg",
+                        "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/TCM%20500%20RA_b-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/TCM%20500%20RA_b-50x50.jpg",
+                        "alt": "Θερμαντήρας υπέρυθρης (κεραμικό πάνελ)" }]
+                }]
+            },
+            "table": {
+                "Capacity": "500 W",
+                "Area": "10 m2",
+                "Regulator": "",
+                "Size": "600х600х14 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "52",
+            "serie": "TCM",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
+            "imgsrc": "images/teploceramic.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-190x210.jpg",
+                "alt": "Керамический обогреватель -λευκό μάρμαρο 49733",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713_4..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713_4..-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713_3-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713%20белый%20мрамор_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713%20белый%20мрамор_7-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733"
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Η καλύτερη λύση για άνετη θέρμανση",
+              "type": "Η μεγάλη ποικιλία από μαρμάρινα χρώματα",
+
+                "model": "ТСМ-450",
+                "select": [{
+                        "value": "52",
+                        "dataDescription": "52",
+                        "dataImagesrc": "images/white.png",
+                        "name": "λευκό μάρμαρο 49713"
+                    },
+                    {
+                        "value": "54",
+                        "dataDescription": "52",
+                        "dataImagesrc": "images/beg49103.png",
+                        "name": "μπεζ  μάρμαρο 49103 "
+                    },
+                    {
+                        "value": "55",
+                        "dataDescription": "52",
+                        "dataImagesrc": "images/beg4905.png",
+                        "name": "μπεζ  μάρμαρο 4905 "
+                    },
+                    {
+                        "value": "56",
+                        "dataDescription": "52",
+                        "dataImagesrc": "images/beg49202.png",
+                        "name": "μπεζ  μάρμαρο 49202 "
+                    },
+                    {
+                        "value": "57",
+                        "dataDescription": "52",
+                        "dataImagesrc": "images/beg49733.png",
+                        "name": "μπεζ  μάρμαρο 49733  "
+                    }
+                ],
+                "gallery": [{
+                    "galleryId": "54",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_1-190x210.jpg",
+                    "alt": "Керамический обогреватель - λευκό μάρμαρο 49103",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_4..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_4..-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_3..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_3..-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_7-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103" }]
+                    }, {
+                    "galleryId": "55",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_1-190x210.jpg",
+                    "alt": "Керамический обогреватель -λευκό μάρμαρο 4905",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_4..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_4..-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 4905"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_3..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_3..-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 4905"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_7-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 4905"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 4905" }]
+                    }, {
+                    "galleryId": "56",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_1-190x210.jpg",
+                    "alt": "Керамический обогреватель - λευκό μάρμαρο 49202",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_4...-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_4...-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49202"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_3..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_3..-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49202"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_7-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49202"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49202" }]
+                    },{
+                    "galleryId": "57",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_1-190x210.jpg",
+                    "alt": "Керамический обогреватель -λευκό μάρμαρο 49733",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_4...-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_4...-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_3-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_7-50x50.jpg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель -λευκό μάρμαρο 49733" }]
+                }]
+            },
+            "table": {
+                "Capacity": "450 W",
+                "Area": "9 m2",
+                "Regulator": "",
+                "Size": "900х450х15 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "86",
+            "serie": "TCMRA",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
+            "imgsrc": "images/teploceramic_RA.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-190x210.jpg",
+                "alt": "Керамический обогреватель - λευκό μάρμαρο 49103",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49713_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49713_RA-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/5-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/5-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Η νεότερη ενσάρκωση του πιο δημοφιλούς μοντέλου",
+              "type": "Με τη δυνατότητα ρύθμισης της θερμοκρασίας του αέρα (από 5° C σε 35° C), είναι ο ίδιος πίνακας (από 40 ° C έως 95 ° C)",
+              "model": "TCM-RA 550",
+              "select": [{
+                        "value": "86",
+                        "dataDescription": "86",
+                        "dataImagesrc": "images/white.png",
+                        "name": "λευκό μάρμαρο 49713"
+                    },
+                    {
+                        "value": "87",
+                        "dataDescription": "86",
+                        "dataImagesrc": "images/beg49103.png",
+                        "name": "μπεζ μάρμαρο 49103"
+                    },
+                    {
+                        "value": "88",
+                        "dataDescription": "86",
+                        "dataImagesrc": "images/beg49202.png",
+                        "name": "μπεζ μάρμαρο 49202"
+                    },
+                    {
+                        "value": "89",
+                        "dataDescription": "86",
+                        "dataImagesrc": "images/beg49733.png",
+                        "name": "μπεζ μάρμαρο 49733"
+                    },
+                    {
+                        "value": "90",
+                        "dataDescription": "86",
+                        "dataImagesrc": "images/beg4905.png",
+                        "name": "μπεζ μάρμαρο 4905"
+                    }
+                ],
+              "gallery": [{
+                    "galleryId": "87",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49103/49103_1-190x210.jpg",
+                    "alt": "Керамический обогреватель - λευκό μάρμαρο 49103",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49103_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49103_RA-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/2-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/2-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103" }]
+                    },{
+                    "galleryId": "88",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49202/49202_1-190x210.jpg",
+                    "alt": "Керамический обогреватель - λευκό μάρμαρο 49103",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/3-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49202_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49202_RA-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103" }]
+                    },
+                {
+                    "galleryId": "89",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_49733/49733_1-190x210.jpg",
+                    "alt": "Керамический обогреватель - λευκό μάρμαρο 49103",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/4-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/4-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49733_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/49733_RA-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103" }]
+                    },{
+                    "galleryId": "90",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_begmramor_4905/4905_1-190x210.jpg",
+                    "alt": "Керамический обогреватель - λευκό μάρμαρο 49103",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/1-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/1-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/4905_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/4905_RA-50x50.jpg",
+                        "alt": "Керамический обогреватель - λευκό μάρμαρο 49103" }]
+                }]
+            },
+            "table": {
+                "Capacity": "550 W",
+                "Area": "11 m2",
+                "Regulator": "",
+                "Size": "900х450х15 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "64",
+            "serie": "TCM",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
+            "imgsrc": "images/teploceramic.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-190x210.jpg",
+                "alt": "Ceramic heater - μάρμαρο 692179",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_4..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_4..-50x50.jpg",
+                        "alt": "Ceramic heater - μάρμαρο 692179"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_3-50x50.jpg",
+                        "alt": "Ceramic heater - μάρμαρο 692179"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_7-50x50.jpg",
+                        "alt": "Ceramic heater - μάρμαρο 692179"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Ceramic heater - μάρμαρο 692179"
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Το φάσμα επιλογών σχεδιασμού για απαιτητικούς πελάτες",
+              "type": "Υψηλή ισχύς και μεγάλη ποικιλία χρωμάτων",
+
+                "model": "ТСМ-600",
+                "select": [{
+                        "value": "64",
+                        "dataDescription": "64",
+                        "dataImagesrc": "images/white.png",
+                        "name": "μάρμαρο 692179"
+                    },
+                    {
+                        "value": "65",
+                        "dataDescription": "64",
+                        "dataImagesrc": "images/mramor692239.png",
+                        "name": "μάρμαρο 692239 "
+                    },
+                    {
+                        "value": "66",
+                        "dataDescription": "64",
+                        "dataImagesrc": "images/mramor694425.png",
+                        "name": "μάρμαρο 694425 "
+                    },
+                    {
+                        "value": "67",
+                        "dataDescription": "64",
+                        "dataImagesrc": "images/mramor695542.png",
+                        "name": "μάρμαρο 695542 "
+                    },
+                    {
+                        "value": "71",
+                        "dataDescription": "64",
+                        "dataImagesrc": "images/mramor697771.png",
+                        "name": "μάρμαρο 692168 "
+                    },
+                    {
+                        "value": "75",
+                        "dataDescription": "64",
+                        "dataImagesrc": "images/beg4905.png",
+                        "name": "μάρμαρο 697771 "
+                    }
+                ],
+                "gallery": [{
+                    "galleryId": "65",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_1-190x210.jpg",
+                    "alt": "Керамический обогреватель -μάρμαρο 692239",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_4..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_4..-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692239"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_3-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692239"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_7-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692239"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692239" }]
+                    },{
+                    "galleryId": "66",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_1-190x210.jpg",
+                    "alt": "Керамический обогреватель -μάρμαρο 694425",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_4..-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_4..-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 694425"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_3-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 694425"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_7-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 694425"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель -μάρμαρο 694425" }]
+                    },{
+                    "galleryId": "67",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_1-190x210.jpg",
+                    "alt": "Керамический обогреватель -μάρμαρο 695542",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_4%20(1)-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_4%20(1)-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 695542"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_3-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 695542"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_7-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 695542"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель -μάρμαρο 695542" }]
+                    },{
+                    "galleryId": "71",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692168_11-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692168_11-190x210.jpg",
+                    "alt": "Керамический обогреватель -μάρμαρο 692168",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/TCM%20692168_2-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/TCM%20692168_2-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692168"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/%20600_692168-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/%20600_692168-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692168"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/TCM%20692168_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/TCM%20692168_3-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692168"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692168" }]
+                    }, {
+                    "galleryId": "75",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_1-190x210.jpg",
+                    "alt": "Ceramic heater - μάρμαρο 697771",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_4%20(1)-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_4%20(1)-50x50.jpg",
+                        "alt": "Ceramic heater - μάρμαρο 697771"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_3-50x50.jpg",
+                        "alt": "Ceramic heater - μάρμαρο 697771"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_7-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_7-50x50.jpg",
+                        "alt": "Ceramic heater - μάρμαρο 697771"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-500x500.jpeg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/metalic-50x50.jpeg",
+                        "alt": "Ceramic heater - μάρμαρο 697771" }]
+                }]
+            },
+            "table": {
+                "Capacity": "600 W",
+                "Area": "12 m2",
+                "Size": "900х600х16 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "91",
+            "serie": "TCMRA",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
+            "imgsrc": "images/teploceramic_RA.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-190x210.jpg",
+                "alt": "Керамический обогреватель -μάρμαρο 692179",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692179-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692179-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692179"
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692179_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692179_RA-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692179"
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Ο συνδυασμός κομψού σχεδιασμού και ευρείας γκάμας χρωμάτων με λειτουργίες ελέγχου",
+              "type": "Η δυνατότητα προσαρμογής της θερμοκρασίας: πάνελ (40C έως 95C), αέρας στο δωμάτιο (5C έως 35C)",
+              "model": "TCM-RA 750",
+              "select": [{
+                      "value": "91",
+                      "dataDescription": "91",
+                      "dataImagesrc": "images/white.png",
+                      "name": "μάρμαρο 692179"
+                  },
+                  {
+                      "value": "92",
+                      "dataDescription": "91",
+                      "dataImagesrc": "images/mramor692239.png",
+                      "name": "μάρμαρο 692239"
+                  },
+                  {
+                      "value": "93",
+                      "dataDescription": "91",
+                      "dataImagesrc": "images/mramor697771.png",
+                      "name": "μάρμαρο 692168"
+                  },
+                  {
+                      "value": "94",
+                      "dataDescription": "91",
+                      "dataImagesrc": "images/beg4905.png",
+                      "name": "μάρμαρο 697771"
+                  },
+                  {
+                      "value": "95",
+                      "dataDescription": "91",
+                      "dataImagesrc": "images/mramor694425.png",
+                      "name": "μάρμαρο 694425"
+                  },
+                  {
+                      "value": "96",
+                      "dataDescription": "91",
+                      "dataImagesrc": "images/mramor695542.png",
+                      "name": "μάρμαρο 695542"
+                  }
+              ],
+              "gallery": [{
+                  "galleryId": "92",
+                  "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_1-500x500.jpg",
+                  "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692239_1-190x210.jpg",
+                  "alt": "Керамический обогреватель -μάρμαρο 692239",
+                  "li": [{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692239_RA-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692239_RA-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239"
+                     },{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/-692239-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/-692239-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239" }]
+                  }, {
+                  "galleryId": "93",
+                  "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692168_11-500x500.jpg",
+                  "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692168_11-190x210.jpg",
+                  "alt": "Керамический обогреватель -μάρμαρο 692239",
+                  "li": [{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692168_RA-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/692168_RA-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239"
+                     },{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/1-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/1-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239" }]
+                  },{
+                  "galleryId": "94",
+                  "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_1-500x500.jpg",
+                  "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/697771_1-190x210.jpg",
+                  "alt": "Керамический обогреватель -μάρμαρο 692239",
+                  "li": [{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/-697771-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/-697771-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239"
+                     },{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/697771_RA-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/697771_RA-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239" }]
+                  },{
+                  "galleryId": "95",
+                  "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_1-500x500.jpg",
+                  "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/694425_1-190x210.jpg",
+                  "alt": "Керамический обогреватель -μάρμαρο 692239",
+                  "li": [{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/694425_RA-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/694425_RA-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239"
+                     },{
+                      "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/-694425-500x500.jpg",
+                      "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/-694425-50x50.jpg",
+                      "alt": "Керамический обогреватель -μάρμαρο 692239" }]
+                  },{
+                    "galleryId": "96",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/695542_1-190x210.jpg",
+                    "alt": "Керамический обогреватель -μάρμαρο 692239",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/695542_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/695542_RA-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692239"
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/695542-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/695542-50x50.jpg",
+                        "alt": "Керамический обогреватель -μάρμαρο 692239" }]
+                }]
+            },
+            "table": {
+                "Capacity": "750 W",
+                "Area": "15 m2",
+                "Regulator": "",
+                "Size": "900х600х17 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "77",
+            "serie": "TCM",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
+            "imgsrc": "images/teploceramic.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/ 800/ 800,12973_1-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_1-190x210.jpg",
+                "alt": "",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_2-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_2-50x50.jpg",
+                        "alt": ""
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_3-50x50.jpg",
+                        "alt": ""
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Υψηλή ισχύς για πολύ μεγάλα δωμάτια",
+              "type": "Η καλύτερη επιλογή για μεγάλες εκτάσεις ή με πολύ ψηλά ταβάνια",
+
+                "model": "ТСМ-800",
+                "select": [{
+                        "value": "77",
+                        "dataDescription": "77",
+                        "dataImagesrc": "images/white.png",
+                        "name": "μάρμαρο 12973"
+                    },
+                    {
+                        "value": "78",
+                        "dataDescription": "77",
+                        "dataImagesrc": "images/.png",
+                        "name": "μάρμαρο 12073"
+                    },
+                    {
+                        "value": "79",
+                        "dataDescription": "77",
+                        "dataImagesrc": "images/.png",
+                        "name": "μάρμαρο 12316"
+                    },
+                    {
+                        "value": "80",
+                        "dataDescription": "77",
+                        "dataImagesrc": "images/white.png",
+                        "name": "λευκό"
+                    },
+                    {
+                        "value": "81",
+                        "dataDescription": "77",
+                        "dataImagesrc": "images/black.png",
+                        "name": "μαύρο"
+                    },
+                    {
+                        "value": "82",
+                        "dataDescription": "77",
+                        "dataImagesrc": "images/beg4905.png",
+                        "name": "μπεζ"
+                    }
+                ],
+                "gallery": [{
+                    "galleryId": "78",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_1-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_3-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_2-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_2-50x50.jpg",
+                        "alt": "" }]
+                    },{
+                    "galleryId": "79",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_1-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%2012316_4-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%2012316_4-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_3-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_2-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_2-50x50.jpg",
+                        "alt": "" }]
+                    },{
+                    "galleryId": "80",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/TCM800%20superweight-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/TCM800%20superweight-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800,%20супер%20вайт_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800,%20супер%20вайт_3-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,%20супер%20вайт_2-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,%20супер%20вайт_2-50x50.jpg",
+                        "alt": "" }]
+                    },{
+                    "galleryId": "81",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800_black_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800_black_1-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20black-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20black-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20black_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20black_3-50x50.jpg",
+                        "alt": "" }]
+                    }, {
+                    "galleryId": "82",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige.jpg-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige.jpg-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige_3-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige_3-50x50.jpg",
+                        "alt": "" }]
+                }]
+            },
+            "table": {
+                "Capacity": "800 W",
+                "Area": "16 m2",
+                "Regulator": "",
+                "Size": "1200х600х17 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "97",
+            "serie": "TCMRA",
+            "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
+            "imgsrc": "images/teploceramic_RA.png",
+            "left": {
+                "ahref": "http://teploceramic.pro/image/cache/catalog/ 800/ 800,12973_1-500x500.jpg",
+                "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_1-190x210.jpg",
+                "alt": "",
+                "ul": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12973-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12973-50x50.jpg",
+                        "alt": ""
+                    },
+                    {
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12973_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12973_RA-50x50.jpg",
+                        "alt": ""
+                    }
+                ]
+            },
+            "middle": {
+              "title": "Υψηλή ισχύς σε συνδυασμό με απλό έλεγχο θερμοκρασίας χώρου",
+              "type": "Με τη δυνατότητα ρύθμισης της θερμοκρασίας του αέρα (από 5 ° C σε 35 ° C), είναι ο ίδιος πίνακας (από 40 ° C έως 95 ° C)",
+
+                "model": "TCM-RA 1000",
+                "select": [{
+                        "value": "97",
+                        "dataDescription": "97",
+                        "dataImagesrc": "images/white.png",
+                        "name": "μάρμαρο 12973"
+                    },
+                    {
+                        "value": "98",
+                        "dataDescription": "97",
+                        "dataImagesrc": "images/.png",
+                        "name": "μάρμαρο 12073"
+                    },
+                    {
+                        "value": "99",
+                        "dataDescription": "97",
+                        "dataImagesrc": "images/.png",
+                        "name": "μάρμαρο 12316"
+                    },
+                    {
+                        "value": "100",
+                        "dataDescription": "97",
+                        "dataImagesrc": "images/.png",
+                        "name": "μπεζ"
+                    },
+                    {
+                        "value": "101",
+                        "dataDescription": "97",
+                        "dataImagesrc": "images/white.png",
+                        "name": "λευκό"
+                    }
+                ],
+                "gallery": [{
+                    "galleryId": "98",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12073_1-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12073-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12073-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12073_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12073_RA-50x50.jpg",
+                        "alt": "" }]
+                },{
+                    "galleryId": "99",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_1-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12316_1-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12316-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12316-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12316_RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/12316_RA-50x50.jpg",
+                        "alt": "" }]
+                    },{
+                    "galleryId": "100",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige.jpg-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800%20beige.jpg-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/beige%20RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/beige%20RA-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/beige-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/beige-50x50.jpg",
+                        "alt": "" }]
+                    },{
+                    "galleryId": "101",
+                    "ahref": "http://teploceramic.pro/image/cache/catalog/%20800/TCM800%20superweight-500x500.jpg",
+                    "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/TCM800%20superweight-190x210.jpg",
+                    "alt": "",
+                    "li": [{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/white%20RA-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/white%20RA-50x50.jpg",
+                        "alt": ""
+                       },{
+                        "ahref": "http://teploceramic.pro/image/cache/catalog/TCM-RA/white-500x500.jpg",
+                        "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM-RA/white-50x50.jpg",
+                        "alt": "" }]
+                }]
+            },
+            "table": {
+                "Capacity": "1000 W",
+                "Area": "20 m2",
+                "Regulator": "",
+                "Size": "1200х600х17 mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "122",
+            "serie": "SW",
+            "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
+            "imgsrc": "images/sunway.png",
+            "left": {
+              "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swosn-600x320.jpg",
+              "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swosn-600x320.jpg",
+              "alt": "",
+              "ul": [{
+                "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swyk-600x320.jpg",
+                "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swyk-600x320.jpg",
+                "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swhk-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swhk-600x320.jpg",
+                  "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swfro-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swfro-600x320.jpg",
+                  "alt": ""
+                }
+              ]
+            },
+            "middle": {
+              "title": "Ο θερμαντήρας υπέρυθρων μετάλλων",
+              "type": "",
+
+                "model": "SW 300 / SW 500 / SW 750",
+                "select": [{
+                        "value": "122",
+                        "dataDescription": "122",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SW 300"
+                    },{
+                        "value": "123",
+                        "dataDescription": "122",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SW 500"
+                    },{
+                        "value": "124",
+                        "dataDescription": "122",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SW 750"
+                    }
+                ],
+                "gallery": []
+            },
+            "table": {
+                "Capacity": "300W / 500W / 750W",
+                "Area": "6m2 / 10m2 / 15m2 ",
+                "Regulator": "",
+                "Size": "800х370х15mm / 1100/470/15mm / 1200/570/15mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "125",
+            "serie": "SW",
+            "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
+            "imgsrc": "images/sunway.png",
+            "left": {
+              "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swregl-600x320.jpg",
+              "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swregl-600x320.jpg",
+              "alt": "",
+              "ul": [{
+                "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swrep-600x320.jpg",
+                "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swrep-600x320.jpg",
+                "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swrepn-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swrepn-600x320.jpg",
+                  "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swretl-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swretl-600x320.jpg",
+                  "alt": ""
+                }
+              ]
+            },
+            "middle": {
+              "title": "θερμαντήρας υπέρυθρων μετάλλων με θερμοστάτη",
+              "type": "",
+
+                "model": "SWRE 400 / SWRE 700 / SWRE 1000",
+                "select": [{
+                        "value": "125",
+                        "dataDescription": "125",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWRE 400"
+                    },{
+                        "value": "126",
+                        "dataDescription": "125",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWRE 700"
+                    },{
+                        "value": "127",
+                        "dataDescription": "125",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWRE 1000"
+                    }
+                ],
+                "gallery": []
+            },
+            "table": {
+                "Capacity": "400W / 700W / 1000W",
+                "Area": "8m2 / 14m2 / 20m2 ",
+                "Regulator": "",
+                "Size": "800/370/15mm / 1100/470/15mm / 1200/570/15mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "128",
+            "serie": "SWH",
+            "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
+            "imgsrc": "images/sunway-hibrid.png",
+            "left": {
+              "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhgl-600x320.jpg",
+              "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhgl-600x320.jpg",
+              "alt": "",
+              "ul": [{
+                "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhreok-600x320.jpg",
+                "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhreok-600x320.jpg",
+                "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhn-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhn-600x320.jpg",
+                  "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swretl-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swretl-600x320.jpg",
+                  "alt": ""
+                }
+              ]
+            },
+            "middle": {
+              "title": "",
+              "type": "Ο υβριδικός υπέρυθρος θερμοσυστήματος. Ο θερμαντήρας μετάλλων, ο οποίος συνδυάζει δύο τύπους θέρμανσης - μεταφοράς και υπέρυθρης ακτινοβολίας.",
+
+                "model": "SWH 600 / SWH 700 / SWH 1000",
+                "select": [{
+                        "value": "128",
+                        "dataDescription": "128",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWH 600"
+                    },{
+                        "value": "129",
+                        "dataDescription": "128",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWH 700"
+                    },{
+                        "value": "130",
+                        "dataDescription": "128",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWH 1000"
+                    }
+                ],
+                "gallery": []
+            },
+            "table": {
+                "Capacity": "600W / 700W / 1000W",
+                "Area": "13m2 / 15m2 / 22m2 ",
+                "Regulator": "",
+                "Size": "650/600/45mm / 950/450/45mm / 950/600/45mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "131",
+            "serie": "SWHRE",
+            "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
+            "imgsrc": "images/sunway-hibrid-re.png",
+            "left": {
+              "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhregl-600x320.jpg",
+              "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhregl-600x320.jpg",
+              "alt": "",
+              "ul": [{
+                "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhreok-600x320.jpg",
+                "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhreok-600x320.jpg",
+                "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhrepk-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhrepk-600x320.jpg",
+                  "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhren-560x299.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhren-560x299.jpg",
+                  "alt": ""
+                }
+              ]
+            },
+            "middle": {
+              "title": "",
+              "type": "Ο υβριδικός υπέρυθρος θερμοαγωγός με θερμοστάτη. Ο θερμαντήρας μετάλλων, ο οποίος συνδυάζει δύο τύπους θέρμανσης - μεταφοράς και υπέρυθρης ακτινοβολίας.",
+
+                "model": "SWH RE 600 / SWH RE 700 / SWH RE 1000",
+                "select": [{
+                        "value": "131",
+                        "dataDescription": "131",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWH RE 600"
+                    },{
+                        "value": "132",
+                        "dataDescription": "131",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWH RE 700"
+                    },{
+                        "value": "133",
+                        "dataDescription": "131",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWH RE 1000"
+                    }
+                ],
+                "gallery": []
+            },
+            "table": {
+                "Capacity": "600W / 700W / 1000W",
+                "Area": "13m2 / 15m2 / 22m2 ",
+                "Regulator": "",
+                "Size": "650/600/45mm / 950/450/45mm / 950/600/45mm",
+                "Voltage": "220 V"
+            }
+        },
+        {
+            "productid": "134",
+            "serie":    "SWG",
+            "serieName": "ΘΕΡΜΑΣΤΡΑ ΥΠΕΡΥΘΡΟΥ ΓΥΑΛΙΟΥ",
+            "imgsrc": "images/sunway.png",
+            "left": {
+              "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvg-600x320.jpg",
+              "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvg-600x320.jpg",
+              "alt": "",
+              "ul": [{
+                "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvb-600x320.jpg",
+                "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvb-600x320.jpg",
+                "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvw-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvw-600x320.jpg",
+                  "alt": ""
+                },
+                {
+                  "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggtl-600x320.jpg",
+                  "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggtl-600x320.jpg",
+                  "alt": ""
+                }
+              ]
+            },
+            "middle": {
+              "title": "ΘΕΡΜΑΣΤΡΑ ΥΠΕΡΥΘΡΟΥ ΓΥΑΛΙΟΥ",
+              "type": "",
+
+                "model": "SWG 450 / SWG 450 RA",
+                "select": [{
+                        "value": "134",
+                        "dataDescription": "134",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWG 450"
+                    },{
+                        "value": "135",
+                        "dataDescription": "134",
+                        "dataImagesrc": "images/white.png",
+                        "name": "SWG 450 RA"
+                    }
+                ],
+                "gallery": []
+            },
+            "table": {
+                "Capacity": "430W / 430W",
+                "Area": "9m2 / 9m2  ",
+                "Regulator": "",
+                "Size": "900/450/11mm / 900/450/11mm ",
+                "Voltage": "220 V"
+            }
+        }
+    ]
+}

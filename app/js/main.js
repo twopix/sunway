@@ -500,7 +500,6 @@ $('#mramor74').ddslick({
 });
 
 
-
 $('#mramor73').ddslick({
 
   onSelected: function(selectedData){
@@ -532,7 +531,6 @@ $('#mramor73').ddslick({
     });
   }
 });
-
 
 
 $('#mramor62').ddslick({
@@ -568,7 +566,6 @@ $('#mramor62').ddslick({
 });
 
 
-
 $('#mramor83').ddslick({
 
   onSelected: function(selectedData){
@@ -600,7 +597,6 @@ $('#mramor83').ddslick({
     });
   }
 });
-
 
 
 $('#mramor52').ddslick({
@@ -636,7 +632,6 @@ $('#mramor52').ddslick({
 });
 
 
-
 $('#mramor86').ddslick({
 
   onSelected: function(selectedData){
@@ -668,7 +663,6 @@ $('#mramor86').ddslick({
     });
   }
 });
-
 
 
 $('#mramor64').ddslick({
@@ -704,7 +698,6 @@ $('#mramor64').ddslick({
 });
 
 
-
 $('#mramor91').ddslick({
 
   onSelected: function(selectedData){
@@ -736,7 +729,6 @@ $('#mramor91').ddslick({
     });
   }
 });
-
 
 
 $('#mramor77').ddslick({
@@ -772,7 +764,6 @@ $('#mramor77').ddslick({
 });
 
 
-
 $('#mramor97').ddslick({
 
   onSelected: function(selectedData){
@@ -806,8 +797,139 @@ $('#mramor97').ddslick({
 });
 
 
-
 $('#mramor122').ddslick({
+
+  onSelected: function(selectedData){
+    var description =selectedData['selectedData']['description'];
+    var id =selectedData['selectedData']['value'];
+    $('#'+description+' .input_prod_id').val(selectedData['selectedData']['value']);
+    $('#main-product-images'+description).html($('.'+id).html());
+    $("a.grouped_elements").fancybox({
+      'transitionIn'  : 'elastic',
+      'transitionOut' : 'elastic',
+      'speedIn'   : 600,
+      'speedOut'    : 200,
+      'overlayShow' : true,
+      helpers : {
+        overlay : {
+          locked : false
+        }
+      }
+    });
+    $('.fancybox-media').fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      helpers : {
+        media : {},
+        overlay : {
+          locked : false
+        }
+      }
+    });
+  }
+});
+
+
+$('#mramor125').ddslick({
+
+  onSelected: function(selectedData){
+    var description =selectedData['selectedData']['description'];
+    var id =selectedData['selectedData']['value'];
+    $('#'+description+' .input_prod_id').val(selectedData['selectedData']['value']);
+    $('#main-product-images'+description).html($('.'+id).html());
+    $("a.grouped_elements").fancybox({
+      'transitionIn'  : 'elastic',
+      'transitionOut' : 'elastic',
+      'speedIn'   : 600,
+      'speedOut'    : 200,
+      'overlayShow' : true,
+      helpers : {
+        overlay : {
+          locked : false
+        }
+      }
+    });
+    $('.fancybox-media').fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      helpers : {
+        media : {},
+        overlay : {
+          locked : false
+        }
+      }
+    });
+  }
+});
+
+
+$('#mramor128').ddslick({
+
+  onSelected: function(selectedData){
+    var description =selectedData['selectedData']['description'];
+    var id =selectedData['selectedData']['value'];
+    $('#'+description+' .input_prod_id').val(selectedData['selectedData']['value']);
+    $('#main-product-images'+description).html($('.'+id).html());
+    $("a.grouped_elements").fancybox({
+      'transitionIn'  : 'elastic',
+      'transitionOut' : 'elastic',
+      'speedIn'   : 600,
+      'speedOut'    : 200,
+      'overlayShow' : true,
+      helpers : {
+        overlay : {
+          locked : false
+        }
+      }
+    });
+    $('.fancybox-media').fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      helpers : {
+        media : {},
+        overlay : {
+          locked : false
+        }
+      }
+    });
+  }
+});
+
+
+$('#mramor131').ddslick({
+
+  onSelected: function(selectedData){
+    var description =selectedData['selectedData']['description'];
+    var id =selectedData['selectedData']['value'];
+    $('#'+description+' .input_prod_id').val(selectedData['selectedData']['value']);
+    $('#main-product-images'+description).html($('.'+id).html());
+    $("a.grouped_elements").fancybox({
+      'transitionIn'  : 'elastic',
+      'transitionOut' : 'elastic',
+      'speedIn'   : 600,
+      'speedOut'    : 200,
+      'overlayShow' : true,
+      helpers : {
+        overlay : {
+          locked : false
+        }
+      }
+    });
+    $('.fancybox-media').fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      helpers : {
+        media : {},
+        overlay : {
+          locked : false
+        }
+      }
+    });
+  }
+});
+
+
+$('#mramor134').ddslick({
 
   onSelected: function(selectedData){
     var description =selectedData['selectedData']['description'];

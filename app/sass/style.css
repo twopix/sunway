@@ -311,13 +311,14 @@ img.img-center {
     #fh5co-pricing .price-box.popular .popular-text {
       top: 0;
       left: 50%;
-      margin-left: -54px;
+      margin-left: -64px;
       margin-top: -2em;
       position: absolute;
       padding: 4px 20px;
       background: #6173f4;
       color: #fff;
-      border-radius: 4px; }
+      border-radius: 4px;
+      width: 50%; }
       #fh5co-pricing .price-box.popular .popular-text:after {
         content: "";
         position: absolute;
@@ -332,10 +333,21 @@ img.img-center {
 #fh5co-pricing .pricing-plan {
   margin: 0;
   padding: 0;
+  height: 6rem;
   font-size: 15px;
   letter-spacing: 2px;
-  text-transform: uppercase;
   font-weight: 700; }
+
+#fh5co-pricing .quarantee {
+  font-size: 1.6rem;
+  width: 50%;
+  line-height: 1.6rem;
+  margin: 1rem auto;
+  text-align: left; }
+  #fh5co-pricing .quarantee:first-letter {
+    font-size: 400%;
+    line-height: 4rem;
+    float: left; }
 
 #fh5co-pricing .price {
   font-size: 50px;
@@ -900,7 +912,21 @@ img.img-center {
 .left > a {
   margin-right: 9px;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  width: 190px;
+  height: 210px;
+  background: white; }
+  .left > a > img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
 
 .left ul {
   padding-left: 0;
@@ -910,6 +936,15 @@ img.img-center {
 
 .left ul li {
   display: inline-block; }
+  .left ul li a.grouped_elements {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: white; }
+
+img.small {
+  width: 50px; }
 
 .left ul li:nth-child(odd) {
   margin-right: 7px;
@@ -931,6 +966,9 @@ h4.type {
   font-weight: normal;
   color: #333; }
 
+table.tblattributes td:nth-child(2) {
+  text-align: center; }
+
 .serie {
   margin: 9rem 0 5rem;
   line-height: 3rem; }
@@ -948,6 +986,30 @@ h4.type {
   border-top: 1px solid #e22d1e; }
   .TCMRA img {
     background: #e22d1e; }
+
+.SW {
+  color: #757575;
+  border-top: 1px solid #757575; }
+  .SW img {
+    background: #757575; }
+
+.SWG {
+  color: #757575;
+  border-top: 1px solid #757575; }
+  .SWG img {
+    background: #757575; }
+
+.SWH {
+  color: #4eb051;
+  border-top: 1px solid #4eb051; }
+  .SWH img {
+    background: #4eb051; }
+
+.SWHRE {
+  color: #4eb051;
+  border-top: 1px solid #4eb051; }
+  .SWHRE img {
+    background: #fff; }
 
 .product_74 {
   display: none; }

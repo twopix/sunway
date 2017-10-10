@@ -4,3 +4,11 @@ mixin gallery(gid, items)
             li
                 a.grouped_elements(data-fancybox-group=`gallery${gid}`, href=`${image.ahref}`)
                     img.small(src=`${image.imgsrc}`, alt=`${image.alt}`)
+
+mixin icon(icon,number, classid)
+    - var n = 0;
+        while n < number
+            .icon(class=`${classid}`)
+                span
+                    i(class=`icon-${icon}`)
+            -n++

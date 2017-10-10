@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000;
+  color: #222;
   font-family: "Play", sans-serif, Arial;
   font-weight: 400; }
 
@@ -54,6 +54,13 @@ h6 {
 ::selection {
   color: #818892;
   background: #f9f6f0; }
+
+.large {
+  font-size: 4em;
+  line-height: 4rem; }
+
+.normal {
+  font-size: 1.4rem; }
 
 #fh5co-header {
   position: absolute;
@@ -305,7 +312,8 @@ img.img-center {
   padding: 30px;
   border-radius: 5px;
   margin-bottom: 40px;
-  position: relative; }
+  position: relative;
+  color: #222; }
   #fh5co-pricing .price-box.popular {
     border: 2px solid #6173f4; }
     #fh5co-pricing .price-box.popular .popular-text {
@@ -330,6 +338,33 @@ img.img-center {
         border-left: 10px solid transparent;
         border-right: 10px solid transparent; }
 
+#fh5co-pricing .icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center; }
+  #fh5co-pricing .icon > span {
+    display: block;
+    vertical-align: middle; }
+    #fh5co-pricing .icon > span i {
+      font-size: 20px;
+      line-height: 30px;
+      color: #fff;
+      margin: 0;
+      padding: 0; }
+  #fh5co-pricing .icon.colored-1 {
+    background: #2aaf67; }
+  #fh5co-pricing .icon.colored-2 {
+    background: #00bff3; }
+  #fh5co-pricing .icon.colored-3 {
+    background: #f26522; }
+  #fh5co-pricing .icon.colored-4 {
+    background: #e52b50; }
+  #fh5co-pricing .icon.colored-5 {
+    background: #2fc5cc; }
+  #fh5co-pricing .icon.colored-6 {
+    background: #6173f4; }
+
 #fh5co-pricing .pricing-plan {
   margin: 0;
   padding: 0;
@@ -343,15 +378,16 @@ img.img-center {
   width: 50%;
   line-height: 1.6rem;
   margin: 1rem auto;
-  text-align: left; }
+  text-align: left;
+  overflow: hidden; }
   #fh5co-pricing .quarantee:first-letter {
     font-size: 400%;
-    line-height: 4rem;
+    line-height: 4.5rem;
     float: left; }
 
 #fh5co-pricing .price {
   font-size: 50px;
-  color: #000; }
+  color: #222; }
   #fh5co-pricing .price .currency {
     font-size: 20px;
     top: -1.2em; }
@@ -722,7 +758,7 @@ img.img-center {
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-next:hover i,
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev:hover i {
-  color: #000; }
+  color: #222; }
 
 .owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-next i,
 .owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-prev i {
@@ -951,8 +987,7 @@ img.small {
   margin-bottom: 14px; }
 
 hr {
-  margin: 6rem 0;
-  border-color: #fff; }
+  border-color: #e0e0e0; }
 
 h2.title {
   margin-top: 0;

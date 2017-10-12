@@ -13,6 +13,8 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     del = require('del'),
     cache = require('gulp-cache'),
+    svgSprite = require("gulp-svg-sprites"),
+    spritesmith = require('gulp.spritesmith'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
     runSequence = require('run-sequence');
@@ -80,43 +82,33 @@ gulp.task('copy-files', function() {
 //         .pipe(gulp.dest('./dist/js/'));
 // });
 
-gulp.task('sprite', function () {
-  return gulp.src(paths.sprite.src)
-    .pipe($.svgSprite({
-      shape: {
-        spacing: {
-          padding: 5
-        }
-      },
-      mode: {
-        css: {
-          dest: "./",
-          layout: "diagonal",
-          sprite: paths.sprite.svg,
-          bust: false,
-          render: {
-            scss: {
-              dest: "css/src/_sprite.scss",
-              template: "build/tpl/sprite-template.scss"
-            }
-          }
-        }
-      },
-      variables: {
-        mapname: "icons"
-      }
+// sprite svg images
+gulp.task('sprites', function () {
+  return gulp.src('app/images/svg/*.svg')
+    .pipe(svgSprite({
+      common: 'svg-icon'
     }))
-    .pipe(gulp.dest(basePaths.dest));
+    .pipe(gulp.dest("./dist/"));
+});
+// sprite png files
+gulp.task('spritepng', function () {
+  var spriteData = gulp.src('app/images/icons/*.png').pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'spritepng.css',
+    imgPath: '../images/sprite.png'
+  }));
+  return spriteData.img.pipe(gulp.dest('./dist/images')),
+    spriteData.css.pipe(gulp.dest('./dist/css'));
 });
 
 // Minify Images
 gulp.task('imagemin', function() {
     return gulp.src('./app/img/**/*.+(png|jpg|jpeg|gif|svg)')
-        // Caching images that ran through imagemin
+        // Caching images that run through imagemin
         .pipe(cache(imagemin({
             interlaced: true
         })))
-        .pipe(gulp.dest('./dist/img'));
+        .pipe(gulp.dest('./dist/images'));
 });
 
 

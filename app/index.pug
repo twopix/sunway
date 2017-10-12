@@ -37,6 +37,10 @@ html.no-js
         link(rel='stylesheet', href='css/animate.css')
         // Icomoon Icon Fonts
         link(rel='stylesheet', href='css/icomoon.css')
+        // Icomoon Icon Fonts
+        link(rel='stylesheet', href='css/sprite.css')
+        // Icomoon Icon Fonts
+        link(rel='stylesheet', href='css/spritepng.css')
         // Simple Line Icons
         link(rel='stylesheet', href='css/simple-line-icons.css')
         // Owl Carousel
@@ -606,7 +610,7 @@ html.no-js
                             |
                             hr
                             |
-                            button.btn.btn-default.btn-sm(type='button' data-toggle='modal' data-target='#contactpopup') Ζητηστε προσφορα
+                            button.btn.btn-default.btn-sm(type='button' data-toggle='modal' data-target='#contactpopup' data-whatever="Αίτηση προσφοράς") Ζητηστε προσφορα
                     |
                     .col-md-3.col-sm-6
                         .price-box.to-animate
@@ -661,11 +665,10 @@ html.no-js
                     div(class=`${row.serie}`).row.serie
                         .col-md-6= row.serieName
                         .col-md-6
-                            .pull-right
-                                img(src=`${row.imgsrc}`, alt=`${row.serie}`).img-responsive
+                            .pull-right(class=`icon-${row.imgsrc}`)
                     |
                     div(class=`product_${row.productid}`).row
-                        .col-md-4
+                        .col-md-3
                             .product-id(style='display:none')= row.productid
                             div(id=`main-product-images${row.productid}`).left
                             .left(class=`${row.productid}`,style='display:none;')
@@ -678,14 +681,20 @@ html.no-js
                                                 img.small(src=`${lister.imgsrc}`, alt=`${lister.alt}`)
                         .col-md-4
                             .middle
-                                h2.title= row.middle.title
+                                h2.title
+                                    strong= row.middle.model
+                                    br
+                                    = row.middle.title
                                 h4.type= row.middle.type
-                                h3.model= row.middle.model
                                 label(for=`mramor${row.productid}`)
                                 select(id=`mramor${row.productid}`,name='mramor').mramor
                                     - var selector = row.middle.select
                                     each sel in selector
                                         option(value=`${sel.value}`, data-description=`${sel.dataDescription}`, data-imagesrc=`${sel.dataImagesrc}`)= sel.name
+                                p.contactus
+                                    button.btn.btn-default.btn-sm(type='button' data-toggle='modal' data-target='#contactpopup' data-whatever=`Request for ${row.middle.model}`) Ρωτηστε για τιμη
+                                    button.btn.btn-default.btn-sm(type='button' data-toggle='modal' data-target='#extraTCM' data-whatever=`Request for ${row.middle.model}`) Extra επιλογές
+
 
                             -var gallery = row.middle.gallery
                             //b= JSON.stringify(gallery)
@@ -695,29 +704,43 @@ html.no-js
                                         img.big.img-responsive(src=`${gal.imgsrc}`, alt=`${gal.alt}`)
                                     +gallery(gal.galleryId, gal.li)
 
-                        .col-md-4
+                        .col-md-5
                             .right
                                 table.table.table-hover.tblattributes
                                     thead
                                         tr
                                             th
-                                            th= row.middle.model
+                                            -var productModel = row.middle.model
+                                            each val in productModel
+                                                th= val
                                     tbody
                                         tr
-                                            td Ισχύς
-                                            td= row.table.Capacity
+                                            td
+                                                span.svg-icon.watt(data-toggle="tooltip" title="Ισχύς")
+                                            -var capacity = row.table.Capacity
+                                            each val in capacity
+                                                td= val
                                         tr
-                                            td Έκταση
-                                            td= row.table.Area
+                                            td
+                                                span.svg-icon.m2(data-toggle="tooltip" title="Τετραγωνικά μέτρα")
+                                            -var area = row.table.Area
+                                            each val in area
+                                                td= val
                                         //tr
                                         //    td Ρυθμιστής
                                         //    td= row.table.Regulator
                                         tr
-                                            td Μέγεθος
-                                            td= row.table.Size
+                                            td
+                                                span.svg-icon.dimansions(data-toggle="tooltip" title="Διαστάσεις")
+                                            -var size = row.table.Size
+                                            each val in size
+                                                td= val
                                         tr
-                                            td Τάση
-                                            td= row.table.Voltage
+                                            td
+                                                span.svg-icon.volt(data-toggle="tooltip" title="Τάση")
+                                            -var voltage = row.table.Voltage
+                                            each val in voltage
+                                                td= val
                     |
         |
         footer#footer(role='contentinfo')
@@ -760,13 +783,35 @@ html.no-js
                     .modal-header
                         button.close(type='button', data-dismiss='modal', aria-label='Close')
                             span(aria-hidden='true') ×
-                        h4#contactpopupLabel.modal-title Modal title
+                        h4#contactpopupLabel.modal-title Αίτηση Προσφοράς
                     .modal-body
-                        | ...
+                        form
+                            .form-group
+                                label.control-label(for='recipient-name') Όνοματεπώνυμο :
+                                input#recipient-name.form-control(type='text')
+                            .form-group
+                                label.control-label(for='recipient-email') Email:
+                                input#recipient-email.form-control(type='email')
+                            .form-group
+                                label.control-label(for='message-text') Σχόλια:
+                                textarea#message-text.form-control
                     .modal-footer
-                        button.btn.btn-default(type='button', data-dismiss='modal') Close
-                        button.btn.btn-primary(type='button') Save changes
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
+        |
 
+        #extraTCM.modal.fade(tabindex='-2', role='dialog', aria-labelledby='extraTCM')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        h4#extraTCM.modal-title Οι πρόσθετες επιλογές της σειράς TCM
+                    .modal-body
+                        img(src="images/extraTCM.jpg" alt="")
+                    .modal-footer
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
         // jQuery
         script(src='js/jquery.min.js')
         // jQuery Easing

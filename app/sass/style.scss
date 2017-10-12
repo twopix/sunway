@@ -148,7 +148,9 @@ h6 {
 .normal {
     font-size: 1.4rem;
 }
-
+.dd-container {
+  margin-bottom: 2.5rem;
+}
 #fh5co-header {
     // position: relative;
     position: absolute;
@@ -1309,9 +1311,10 @@ img.img-center {
     margin-right: 9px;
     position: relative;
     display: inline-block;
-    width: 190px;
+    width: 260px;
     height: 210px;
     background: white;
+    border: 1px solid #E0E0E0;
   >img {
     max-height: 100%;
     max-width: 100%;
@@ -1329,34 +1332,38 @@ img.img-center {
 .left ul {
     padding-left: 0;
     display: inline-block;
-    max-width: 120px;
+    max-width: 261px;
     vertical-align: top;
 }
 
 .left ul li {
     display: inline-block;
     a.grouped_elements {
-      position: relative;
-      display: block;
-      width: 50px;
-      height: 50px;
+      display: table-cell;
+      width: 60px;
+      height: 60px;
       background: white;
+      vertical-align: middle;
+      border: 1px solid #E0E0E0;
     }
 }
 img.small {
   width: 50px;
 }
-.left ul li:nth-child(odd) {
-    margin-right: 7px;
-    margin-bottom: 14px;
+.left ul li {
+    margin-right: 3px;
+    margin-bottom: 3px;
+  }
+.left ul li:nth-child(4n)  {
+  margin-right: 0;
 }
+
 
 hr {
     border-color: #e0e0e0;
 }
 h2.title {
   margin-top: 0;
-  margin-bottom: 0;
   font-size: 2.2rem;
   font-weight: normal;
 }
@@ -1378,46 +1385,37 @@ table.tblattributes td:nth-child(2) {
 }
 
 .TCM    {
-  color: #ef7d00;
-  border-top:1px solid #ef7d00;
+  background: #ef7d00;
+  color: white;
+  border-top:1px solid darken(#ef7d00, 20%);
   img {
     background: #ef7d00;
   }
 }
 .TCMRA  {
-  color: #e22d1e;
-  border-top:1px solid #e22d1e;
-  img {
-    background: #e22d1e;
-  }
+  background: #e22d1e;
+  color: white;
+  border-top:1px solid darken(#e22d1e, 20%);
 }
 .SW  {
+  background: #ededed;
   color: #757575;
   border-top:1px solid #757575;
-  img {
-    background: #757575;
-  }
 }
 .SWG {
+  background: #ededed;
   color: #757575;
-  border-top:1px solid #757575;
-  img {
-    background: #757575;
-  }
+  border-top:1px solid darken(#757575,20%);
 }
 .SWH  {
-  color: #4eb051;
-  border-top:1px solid #4eb051;
-  img {
-    background: #4eb051;
-  }
+  background: #4eb051;
+  color: white;
+  border-top:1px solid darken(#4eb051, 20%);
 }
 .SWHRE  {
-  color: #4eb051;
-  border-top:1px solid #4eb051;
-  img {
-    background: #fff;
-  }
+  background: white;
+  color: #761c19;
+  border-top:1px solid darken(#761c19, 20%);
 }
 
 

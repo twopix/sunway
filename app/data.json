@@ -4,7 +4,7 @@
             "productid": "73",
             "serie": "TCM",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
-            "imgsrc": "images/teploceramic.png",
+            "imgsrc": "teploceramic",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/TCM 400/ 400  w-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400%20%20w-190x210.jpg",
@@ -25,7 +25,7 @@
             "middle": {
               "title": "Μοντέλο προϋπολογισμού",
               "type": "για την κοινωνική σφαίρα και την αστική κατασκευή",
-              "model": "TC-370",
+              "model": ["TC-370"],
               "select": [{
                         "value": "73",
                         "dataDescription": "73",
@@ -74,18 +74,18 @@
                   }]
             },
             "table": {
-                "Capacity": "395 W",
-                "Area": "8 m2",
-                "Regulator": "",
-                "Size": "600х600х11 mm",
-                "Voltage": "220 V"
+                "Capacity": ["395 W"],
+                "Area": ["8 m2"],
+                "Regulator": [""],
+                "Size": ["600х600х11 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "62",
             "serie": "TCM",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
-            "imgsrc": "images/teploceramic.png",
+            "imgsrc": "teploceramic",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/TCM 400/ 400  w-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400%20%20w-190x210.jpg",
@@ -105,7 +105,7 @@
             "middle": {
               "title": "Κλασικό μοντέλο",
               "type": "Τέλειο μέγεθος + συμπαγές χρώμα της μπροστινής πλευράς",
-              "model": "TCM-400",
+              "model": ["TCM-400"],
               "select": [{
                         "value": "62",
                         "dataDescription": "62",
@@ -154,18 +154,18 @@
                 }]
             },
             "table": {
-                "Capacity": "400 W",
-                "Area": "8 m2",
-                "Regulator": "",
-                "Size": "600х600х14 mm",
-                "Voltage": "220 V"
+                "Capacity": ["400 W"],
+                "Area": ["8 m2"],
+                "Regulator": [""],
+                "Size": ["600х600х14 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "83",
             "serie": "TCMRA",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
-            "imgsrc": "images/teploceramic_RA.png",
+            "imgsrc": "teploceramic_RA",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/TCM 400/ 400  w-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM%20400/%20400%20%20w-190x210.jpg",
@@ -185,7 +185,7 @@
             "middle": {
               "title": "Το κλασικό μοντέλο βελτιώνεται με τον ενσωματωμένο θερμοστάτη",
               "type": "Η δυνατότητα προσαρμογής της θερμοκρασίας: πάνελ (40C έως 95C), αέρας στο δωμάτιο (5C έως 35C)",
-              "model": "ТСМ-RA 500",
+              "model": ["ТСМ-RA 500"],
               "select": [{
                         "value": "83",
                         "dataDescription": "83",
@@ -234,18 +234,18 @@
                 }]
             },
             "table": {
-                "Capacity": "500 W",
-                "Area": "10 m2",
-                "Regulator": "",
-                "Size": "600х600х14 mm",
-                "Voltage": "220 V"
+                "Capacity": ["500 W"],
+                "Area": ["10 m2"],
+                "Regulator": [""],
+                "Size": ["600х600х14 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "52",
             "serie": "TCM",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
-            "imgsrc": "images/teploceramic.png",
+            "imgsrc": "teploceramic",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-190x210.jpg",
@@ -276,7 +276,7 @@
               "title": "Η καλύτερη λύση για άνετη θέρμανση",
               "type": "Η μεγάλη ποικιλία από μαρμάρινα χρώματα",
 
-                "model": "ТСМ-450",
+                "model": ["ТСМ-450"],
                 "select": [{
                         "value": "52",
                         "dataDescription": "52",
@@ -395,18 +395,18 @@
                 }]
             },
             "table": {
-                "Capacity": "450 W",
-                "Area": "9 m2",
-                "Regulator": "",
-                "Size": "900х450х15 mm",
-                "Voltage": "220 V"
+                "Capacity": ["450 W"],
+                "Area": ["9 m2"],
+                "Regulator": [""],
+                "Size": ["900х450х15 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "86",
             "serie": "TCMRA",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
-            "imgsrc": "images/teploceramic_RA.png",
+            "imgsrc": "teploceramic_RA",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_450/TCM_450_whitemramor_49713/49713-190x210.jpg",
@@ -426,7 +426,7 @@
             "middle": {
               "title": "Η νεότερη ενσάρκωση του πιο δημοφιλούς μοντέλου",
               "type": "Με τη δυνατότητα ρύθμισης της θερμοκρασίας του αέρα (από 5° C σε 35° C), είναι ο ίδιος πίνακας (από 40 ° C έως 95 ° C)",
-              "model": "TCM-RA 550",
+              "model": ["TCM-RA 550"],
               "select": [{
                         "value": "86",
                         "dataDescription": "86",
@@ -514,18 +514,18 @@
                 }]
             },
             "table": {
-                "Capacity": "550 W",
-                "Area": "11 m2",
-                "Regulator": "",
-                "Size": "900х450х15 mm",
-                "Voltage": "220 V"
+                "Capacity": ["550 W"],
+                "Area": ["11 m2"],
+                "Regulator": [""],
+                "Size": ["900х450х15 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "64",
             "serie": "TCM",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
-            "imgsrc": "images/teploceramic.png",
+            "imgsrc": "teploceramic",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-190x210.jpg",
@@ -556,7 +556,7 @@
               "title": "Το φάσμα επιλογών σχεδιασμού για απαιτητικούς πελάτες",
               "type": "Υψηλή ισχύς και μεγάλη ποικιλία χρωμάτων",
 
-                "model": "ТСМ-600",
+                "model": ["ТСМ-600"],
                 "select": [{
                         "value": "64",
                         "dataDescription": "64",
@@ -702,17 +702,17 @@
                 }]
             },
             "table": {
-                "Capacity": "600 W",
-                "Area": "12 m2",
-                "Size": "900х600х16 mm",
-                "Voltage": "220 V"
+                "Capacity": ["600 W"],
+                "Area": ["12 m2"],
+                "Size": ["900х600х16 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "91",
             "serie": "TCMRA",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
-            "imgsrc": "images/teploceramic_RA.png",
+            "imgsrc": "teploceramic_RA",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/TCM_600/692179_1-190x210.jpg",
@@ -732,7 +732,7 @@
             "middle": {
               "title": "Ο συνδυασμός κομψού σχεδιασμού και ευρείας γκάμας χρωμάτων με λειτουργίες ελέγχου",
               "type": "Η δυνατότητα προσαρμογής της θερμοκρασίας: πάνελ (40C έως 95C), αέρας στο δωμάτιο (5C έως 35C)",
-              "model": "TCM-RA 750",
+              "model": ["TCM-RA 750"],
               "select": [{
                       "value": "91",
                       "dataDescription": "91",
@@ -838,18 +838,18 @@
                 }]
             },
             "table": {
-                "Capacity": "750 W",
-                "Area": "15 m2",
-                "Regulator": "",
-                "Size": "900х600х17 mm",
-                "Voltage": "220 V"
+                "Capacity": ["750 W"],
+                "Area": ["15 m2"],
+                "Regulator": [""],
+                "Size": ["900х600х17 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "77",
             "serie": "TCM",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ",
-            "imgsrc": "images/teploceramic.png",
+            "imgsrc": "teploceramic",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/ 800/ 800,12973_1-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_1-190x210.jpg",
@@ -870,7 +870,7 @@
               "title": "Υψηλή ισχύς για πολύ μεγάλα δωμάτια",
               "type": "Η καλύτερη επιλογή για μεγάλες εκτάσεις ή με πολύ ψηλά ταβάνια",
 
-                "model": "ТСМ-800",
+                "model": ["ТСM-800"],
                 "select": [{
                         "value": "77",
                         "dataDescription": "77",
@@ -980,18 +980,18 @@
                 }]
             },
             "table": {
-                "Capacity": "800 W",
-                "Area": "16 m2",
-                "Regulator": "",
-                "Size": "1200х600х17 mm",
-                "Voltage": "220 V"
+                "Capacity": ["800 W"],
+                "Area": ["16 m2"],
+                "Regulator": [""],
+                "Size": ["1200х600х17 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "97",
             "serie": "TCMRA",
             "serieName": "ΚΕΡΑΜΙΚΕΣ ΘΕΡΜΑΣΤΡΕΣ ΜΕ ΕΝΣΩΜΑΤΩΜΕΝΟ ΘΕΡΜΟΣΤΑΤΗ",
-            "imgsrc": "images/teploceramic_RA.png",
+            "imgsrc": "teploceramic_RA",
             "left": {
                 "ahref": "http://teploceramic.pro/image/cache/catalog/ 800/ 800,12973_1-500x500.jpg",
                 "imgsrc": "http://teploceramic.pro/image/cache/catalog/%20800/%20800,12973_1-190x210.jpg",
@@ -1012,7 +1012,7 @@
               "title": "Υψηλή ισχύς σε συνδυασμό με απλό έλεγχο θερμοκρασίας χώρου",
               "type": "Με τη δυνατότητα ρύθμισης της θερμοκρασίας του αέρα (από 5 ° C σε 35 ° C), είναι ο ίδιος πίνακας (από 40 ° C έως 95 ° C)",
 
-                "model": "TCM-RA 1000",
+                "model": ["TCM-RA 1000"],
                 "select": [{
                         "value": "97",
                         "dataDescription": "97",
@@ -1099,18 +1099,18 @@
                 }]
             },
             "table": {
-                "Capacity": "1000 W",
-                "Area": "20 m2",
-                "Regulator": "",
-                "Size": "1200х600х17 mm",
-                "Voltage": "220 V"
+                "Capacity": ["1000 W"],
+                "Area": ["20 m2"],
+                "Regulator": [""],
+                "Size": ["1200х600х17 mm"],
+                "Voltage": ["220 V"]
             }
         },
         {
             "productid": "122",
             "serie": "SW",
             "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
-            "imgsrc": "images/sunway.png",
+            "imgsrc": "sunway",
             "left": {
               "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swosn-600x320.jpg",
               "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSW/swosn-600x320.jpg",
@@ -1136,7 +1136,7 @@
               "title": "Ο θερμαντήρας υπέρυθρων μετάλλων",
               "type": "",
 
-                "model": "SW 300 / SW 500 / SW 750",
+                "model": ["SW 300","SW 500","SW 750"],
                 "select": [{
                         "value": "122",
                         "dataDescription": "122",
@@ -1157,18 +1157,18 @@
                 "gallery": []
             },
             "table": {
-                "Capacity": "300W / 500W / 750W",
-                "Area": "6m2 / 10m2 / 15m2 ",
-                "Regulator": "",
-                "Size": "800х370х15mm / 1100/470/15mm / 1200/570/15mm",
-                "Voltage": "220 V"
+                "Capacity": ["300W","500W","750W"],
+                "Area": ["6m2","10m2","15m2 "],
+                "Regulator": [""],
+                "Size": ["800х370х15mm","1100/470/15mm","1200/570/15mm"],
+                "Voltage": ["220 V","220 V","220 V"]
             }
         },
         {
             "productid": "125",
             "serie": "SW",
             "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
-            "imgsrc": "images/sunway.png",
+            "imgsrc": "sunway",
             "left": {
               "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swregl-600x320.jpg",
               "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWHRE/swregl-600x320.jpg",
@@ -1194,7 +1194,7 @@
               "title": "θερμαντήρας υπέρυθρων μετάλλων με θερμοστάτη",
               "type": "",
 
-                "model": "SWRE 400 / SWRE 700 / SWRE 1000",
+                "model": ["SWRE 400","SWRE 700","SWRE 1000"],
                 "select": [{
                         "value": "125",
                         "dataDescription": "125",
@@ -1215,18 +1215,18 @@
                 "gallery": []
             },
             "table": {
-                "Capacity": "400W / 700W / 1000W",
-                "Area": "8m2 / 14m2 / 20m2 ",
-                "Regulator": "",
-                "Size": "800/370/15mm / 1100/470/15mm / 1200/570/15mm",
-                "Voltage": "220 V"
+                "Capacity": ["400W","700W","1000W"],
+                "Area": ["8m2","14m2","20m2 "],
+                "Regulator": [""],
+                "Size": ["800/370/15mm","1100/470/15mm","1200/570/15mm"],
+                "Voltage": ["220 V","220 V","220 V"]
             }
         },
         {
             "productid": "128",
             "serie": "SWH",
             "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
-            "imgsrc": "images/sunway-hibrid.png",
+            "imgsrc": "sunway-hibrid",
             "left": {
               "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhgl-600x320.jpg",
               "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWH/swhgl-600x320.jpg",
@@ -1252,7 +1252,7 @@
               "title": "",
               "type": "Ο υβριδικός υπέρυθρος θερμοσυστήματος. Ο θερμαντήρας μετάλλων, ο οποίος συνδυάζει δύο τύπους θέρμανσης - μεταφοράς και υπέρυθρης ακτινοβολίας.",
 
-                "model": "SWH 600 / SWH 700 / SWH 1000",
+                "model": ["SWH 600","SWH 700","SWH 1000"],
                 "select": [{
                         "value": "128",
                         "dataDescription": "128",
@@ -1273,18 +1273,18 @@
                 "gallery": []
             },
             "table": {
-                "Capacity": "600W / 700W / 1000W",
-                "Area": "13m2 / 15m2 / 22m2 ",
-                "Regulator": "",
-                "Size": "650/600/45mm / 950/450/45mm / 950/600/45mm",
-                "Voltage": "220 V"
+                "Capacity": ["600W","700W","1000W"],
+                "Area": ["13m2","15m2","22m2 "],
+                "Regulator": [""],
+                "Size": ["650/600/45mm","950/450/45mm","950/600/45mm"],
+                "Voltage": ["220 V","220 V","220 V"]
             }
         },
         {
             "productid": "131",
             "serie": "SWHRE",
             "serieName": "ΟΙ ΘΕΡΜΑΝΤΗΡΕΣ ΜΕΤΑΛΛΟ",
-            "imgsrc": "images/sunway-hibrid-re.png",
+            "imgsrc": "sunway-hibrid-re",
             "left": {
               "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhregl-600x320.jpg",
               "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/sSWRE/swhregl-600x320.jpg",
@@ -1310,7 +1310,7 @@
               "title": "",
               "type": "Ο υβριδικός υπέρυθρος θερμοαγωγός με θερμοστάτη. Ο θερμαντήρας μετάλλων, ο οποίος συνδυάζει δύο τύπους θέρμανσης - μεταφοράς και υπέρυθρης ακτινοβολίας.",
 
-                "model": "SWH RE 600 / SWH RE 700 / SWH RE 1000",
+                "model": ["SWH RE 600","SWH RE 700","SWH RE 1000"],
                 "select": [{
                         "value": "131",
                         "dataDescription": "131",
@@ -1331,18 +1331,18 @@
                 "gallery": []
             },
             "table": {
-                "Capacity": "600W / 700W / 1000W",
-                "Area": "13m2 / 15m2 / 22m2 ",
-                "Regulator": "",
-                "Size": "650/600/45mm / 950/450/45mm / 950/600/45mm",
-                "Voltage": "220 V"
+                "Capacity": ["600W","700W","1000W"],
+                "Area": ["13m2","15m2","22m2 "],
+                "Regulator": [""],
+                "Size": ["650/600/45mm","950/450/45mm","950/600/45mm"],
+                "Voltage": ["220 V","220 V","220 V"]
             }
         },
         {
             "productid": "134",
             "serie":    "SWG",
             "serieName": "ΘΕΡΜΑΣΤΡΑ ΥΠΕΡΥΘΡΟΥ ΓΥΑΛΙΟΥ",
-            "imgsrc": "images/sunway.png",
+            "imgsrc": "sunway",
             "left": {
               "ahref": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvg-600x320.jpg",
               "imgsrc": "http://s-w.com.ua/image/cache/catalog/Sun_Way/SWGG/swggvg-600x320.jpg",
@@ -1368,7 +1368,7 @@
               "title": "ΘΕΡΜΑΣΤΡΑ ΥΠΕΡΥΘΡΟΥ ΓΥΑΛΙΟΥ",
               "type": "",
 
-                "model": "SWG 450 / SWG 450 RA",
+                "model": ["SWG 450","SWG 450 RA"],
                 "select": [{
                         "value": "134",
                         "dataDescription": "134",
@@ -1384,11 +1384,11 @@
                 "gallery": []
             },
             "table": {
-                "Capacity": "430W / 430W",
-                "Area": "9m2 / 9m2  ",
-                "Regulator": "",
-                "Size": "900/450/11mm / 900/450/11mm ",
-                "Voltage": "220 V"
+                "Capacity": ["430W", "430W"],
+                "Area": ["9m2","9m2  "],
+                "Regulator": [""],
+                "Size": ["900/450/11mm","900/450/11mm "],
+                "Voltage": ["220 V","220 V","220 V"]
             }
         }
     ]

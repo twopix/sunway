@@ -103,7 +103,7 @@
         var modal = $(this)
         modal.find('.modal-title').text(request)
         modal.find('.modal-body textarea').val(request)
-      })
+      });
     };
 
     // Tooltip bootstrap

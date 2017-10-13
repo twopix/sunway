@@ -686,14 +686,15 @@ html.no-js
                                     br
                                     = row.middle.title
                                 h4.type= row.middle.type
+
                                 label(for=`mramor${row.productid}`)
                                 select(id=`mramor${row.productid}`,name='mramor').mramor
                                     - var selector = row.middle.select
                                     each sel in selector
                                         option(value=`${sel.value}`, data-description=`${sel.dataDescription}`, data-imagesrc=`${sel.dataImagesrc}`)= sel.name
+
                                 p.contactus
                                     button.btn.btn-default.btn-sm(type='button' data-toggle='modal' data-target='#contactpopup' data-whatever=`Request for ${row.middle.model}`) Ρωτηστε για τιμη
-                                    button.btn.btn-default.btn-sm(type='button' data-toggle='modal' data-target='#extraTCM' data-whatever=`Request for ${row.middle.model}`) Extra επιλογές
 
 
                             -var gallery = row.middle.gallery
@@ -741,6 +742,14 @@ html.no-js
                                             -var voltage = row.table.Voltage
                                             each val in voltage
                                                 td= val
+                                        tr
+                                            td
+                                                span.icon.icon-grid2(data-toggle="tooltip" title="Πρόσθετες επιλογές της σειράς")
+                                            -var extra = row.table.Voltage
+                                            each val in extra
+                                                td
+                                                    a(href='#!' type='button' data-toggle='modal' data-target=`#extra${row.serie}` data-whatever=`Extra for ${row.middle.model}`)
+                                                        span.label.label-primary Extra επιλογές
                     |
         |
         footer#footer(role='contentinfo')
@@ -808,10 +817,101 @@ html.no-js
                             span(aria-hidden='true') ×
                         h4#extraTCM.modal-title Οι πρόσθετες επιλογές της σειράς TCM
                     .modal-body
-                        img(src="images/extraTCM.jpg" alt="")
+                        img(src="images/extra-TCM.png" alt="").img-responsive
                     .modal-footer
                         button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
                         button.btn.btn-primary(type='button') Αποστολη
+
+        |
+
+        #extraTCMRA.modal.fade(tabindex='-3', role='dialog', aria-labelledby='extraTCMRA')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        h4#extraTCMRA.modal-title Οι πρόσθετες επιλογές της σειράς TCMRA
+                    .modal-body
+                        img(src="images/extra-TCMRA.png" alt="").img-responsive
+                    .modal-footer
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
+
+        |
+
+        #extraSWG.modal.fade(tabindex='-4', role='dialog', aria-labelledby='extraSWG')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        h4#extraSWG.modal-title Οι πρόσθετες επιλογές της σειράς SWG
+                    .modal-body
+                        img(src="images/extra-SWG.png" alt="").img-responsive
+                    .modal-footer
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
+
+        |
+
+        #extraSW.modal.fade(tabindex='-4', role='dialog', aria-labelledby='extraSW')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        h4#extraSW.modal-title Οι πρόσθετες επιλογές της σειράς SW
+                    .modal-body
+                        img(src="images/extra-SW.png" alt="").img-responsive
+                    .modal-footer
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
+
+        |
+
+        #extraSWH.modal.fade(tabindex='-4', role='dialog', aria-labelledby='extraSWH')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        h4#extraSWH.modal-title Οι πρόσθετες επιλογές της σειράς SWH
+                    .modal-body
+                        img(src="images/extra-SWH.png" alt="").img-responsive
+                    .modal-footer
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
+
+        |
+
+        #extraSWHRE.modal.fade(tabindex='-4', role='dialog', aria-labelledby='extraSWHRE')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        h4#extraSWHRE.modal-title Οι πρόσθετες επιλογές της σειράς SWHRE
+                    .modal-body
+                        img(src="images/extra-SWHRE.png" alt="").img-responsive
+                    .modal-footer
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
+
+        |
+
+        #extraSWRE.modal.fade(tabindex='-4', role='dialog', aria-labelledby='extraSWRE')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                        h4#extraSWRE.modal-title Οι πρόσθετες επιλογές της σειράς SWRE
+                    .modal-body
+                        img(src="images/extra-SWRE.png" alt="").img-responsive
+                    .modal-footer
+                        button.btn.btn-default(type='button', data-dismiss='modal') Κλεισιμο
+                        button.btn.btn-primary(type='button') Αποστολη
+
         // jQuery
         script(src='js/jquery.min.js')
         // jQuery Easing
